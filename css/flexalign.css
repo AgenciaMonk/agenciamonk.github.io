@@ -326,15 +326,6 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .text-left {
-    text-align: center!important
-  }
-  .text-center {
-    text-align: center!important
-  }
-  .text-right {
-    text-align: center!important
-  }
 }
 @media only screen and (max-width: 768px) {
   .wrap-tablet {

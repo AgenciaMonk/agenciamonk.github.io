@@ -139,9 +139,15 @@ select:hover {
 .playground {
   color: #ff4455!important;
 }
+.some-desk {
+  display: none
+}
 @media only screen and (max-width: 768px) {
   .some-phone {
     display: none
+  }
+  .some-desk {
+    display: block
   }
   .tey {
     flex-wrap: wrap!important;
