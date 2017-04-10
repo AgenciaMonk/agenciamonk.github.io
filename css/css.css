@@ -143,4 +143,7 @@ select:hover {
   .some-phone {
     display: none
   }
+  .tey {
+    flex-wrap: wrap!important;
+  }
 }
