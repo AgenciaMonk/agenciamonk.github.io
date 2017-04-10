@@ -1,0 +1,16 @@
+{% include head.html %}
+<body>
+  {% include header.html %}
+
+
+  <div class="container wrap space-between container-site">
+    <div class="site-menu flex1 basis1 ">
+      {% include menu.html %}
+    </div>
+    <div class="site-conteudo flex basis9">
+      {{ content }}
+    </div>
+  </div>
+</body>
+
+</html>

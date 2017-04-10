@@ -1,0 +1,146 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/roboto-slab/RobotoSlab-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: myFirstFont;
+  /*color: rgba(0, 0, 0, 0.5);*/
+}
+body,
+html {
+  height: 100%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+select {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  color: #222222;
+  border: 2px solid #222222;
+  transition: .3s
+}
+select:focus,
+select:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.margin {
+  margin: 0 auto
+}
+.margin2 {
+  margin: 20px
+}
+.input-form {
+  width: 400px;
+  max-width: 90%;
+}
+.bg-color {
+  background: #222222;
+}
+.input-form-text {
+  padding-bottom: 10px;
+  color: #222222;
+}
+.text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.teste {
+  background: #222222;
+  color: #fff!important;
+  margin: 10px;
+  height: 100px;
+  overflow: hidden;
+}
+.tamanho {
+  width: 1440px;
+  max-width: 90%;
+}
+.height-full {
+  height: 100%;
+}
+.width-full {
+  width: 100%;
+}
+.container-box {
+  background: #ccc!important;
+}
+.container-box2 {
+  background: #ccc!important;
+    min-height: 300px;
+}
+.cont {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.intro {
+  padding-top: 20px;
+}
+.menu-full {
+  background: #222222
+}
+.menu {
+  min-height: 70px;
+  color: #fff!important
+}
+.item-menu {
+  margin: 10px;
+}
+.link-menu {
+  margin: 10px;
+}
+.site-menu {
+  background: #fff;
+  padding: 20px;
+}
+.site-conteudo {
+  padding: 20px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+}
+.container-site {
+  height: calc(100% - 70px)
+}
+.link-doc-title h1 {
+  font-size: 22px;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.link-doc-subtitle h2 {
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+.link-doc ul {
+  list-style: none;
+}
+.link-doc li {
+  margin: 5px;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  transition: .3s
+}
+.link-doc li:hover {
+  border-left: 5px solid #222222;
+  padding-left: 20px;
+}
+.link-doc a {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.link-doc a:hover {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.playground {
+  color: #ff4455!important;
+}
+@media only screen and (max-width: 768px) {
+  .some-phone {
+    display: none
+  }
+}
