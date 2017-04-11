@@ -1,12 +1,5 @@
-<!-- <header class="masthead">
-  <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">{{ site.title }}<span>&#39;s blog</span></a>
-  </h1>
-  <nav class="masthead-nav">
 
-  </nav>
-</header> -->
-<div class="menu-full">
+<!-- <div class="menu-full">
   <div class="menu container space-between-center tamanho margin text-center">
     <div class="item-menu flex1 basis1">
       <div class="logo-site">
@@ -26,4 +19,94 @@
       </div>
     </div>
   </div>
+</div> -->
+
+
+
+<div class="menu-full">
+  <div class="menu container space-between-center tamanho margin text-center">
+    <div class="item-menu flex1 basis1">
+      <div class="logo-site text-left">
+        <a href="{{ "/#" | prepend: site.baseurl }}"><img src="{{ "/img/logo.svg "| prepend: site.baseurl }}" width="200" alt=""></a>
+      </div>
+    </div>
+
+    <div class="item-menu flex basis2 text-right">
+      <div class="img-menu">
+        <div id="hamburg">
+          <img src="{{ "/img/menu.svg "| prepend: site.baseurl }}" width="20" alt="">
+        </div>
+        <div class="espaco-menu text-left" id="fechahamburg">
+          <div class="tamanho margin">
+
+
+            <div class="container column">
+
+              <div class="link-doc">
+                <div class="link-doc-title">
+                  <h1>Documentação</h1>
+                </div>
+                <div class="link-doc-subtitle">
+                  <h2>Conheça</h2>
+                </div>
+                <ul>
+                  <li><a href="{{ "/start/sobre" | prepend: site.baseurl }}">Sobre</a></li>
+                  <li><a href="{{ "/start/download" | prepend: site.baseurl }}">Get Started</a></li>
+
+                </ul>
+              </div>
+
+              <div class="link-doc">
+                <div class="link-doc-subtitle">
+                  <h2>Grid</h2>
+                </div>
+                <ul>
+                  <li><a href="{{ "/doc/testes" | prepend: site.baseurl }}">Aprenda</a></li>
+                  <li><a href="{{ "/doc/wrap" | prepend: site.baseurl }}">Wrap/nowrap</a></li>
+                  <li><a href="{{ "/doc/column-row" | prepend: site.baseurl }}">Column/row</a></li>
+                  <li><a href="{{ "/doc/flex" | prepend: site.baseurl }}">Flex</a></li>
+                  <li><a href="{{ "/doc/align" | prepend: site.baseurl }}">Align</a></li>
+                  <li><a href="{{ "/doc/basis" | prepend: site.baseurl }}">Basis</a></li>
+                  <li><a href="{{ "/doc/playground" | prepend: site.baseurl }}"class="playground">Playground</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<script type="text/javascript">
+var hamburgerAbre = document.getElementById('hamburg');
+var hamburgerFecha = document.getElementById('fecha-menu-hamb');
+
+// ABRIR MENU
+hamburgerAbre.onclick = function() {
+    var abre = document.getElementById('fechahamburg');
+    if (abre.style.display !== 'block') {
+        abre.style.display = 'block';
+    }
+    else {
+        abre.style.display = 'none';
+    }
+};
+// /ABRIR MENU
+
+// FECHAR MENU
+hamburgerFecha.onclick = function() {
+    var fecha = document.getElementById('fechahamburg');
+    if (fecha.style.display !== 'block') {
+        fecha.style.display = 'block';
+    }
+    else {
+        fecha.style.display = 'none';
+    }
+};
+// /FECHAR MENU
+</script>

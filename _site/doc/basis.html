@@ -9,15 +9,8 @@
 </head>
 
 <body>
-  <!-- <header class="masthead">
-  <h1 class="masthead-title">
-    <a href="/">Monk<span>&#39;s blog</span></a>
-  </h1>
-  <nav class="masthead-nav">
-
-  </nav>
-</header> -->
-<div class="menu-full">
+  
+<!-- <div class="menu-full">
   <div class="menu container space-between-center tamanho margin text-center">
     <div class="item-menu flex1 basis1">
       <div class="logo-site">
@@ -61,7 +54,97 @@
       </div>
     </div>
   </div>
+</div> -->
+
+
+
+<div class="menu-full">
+  <div class="menu container space-between-center tamanho margin text-center">
+    <div class="item-menu flex1 basis1">
+      <div class="logo-site text-left">
+        <a href="/#"><img src="/img/logo.svg " width="200" alt=""></a>
+      </div>
+    </div>
+
+    <div class="item-menu flex basis2 text-right">
+      <div class="img-menu">
+        <div id="hamburg">
+          <img src="/img/menu.svg " width="20" alt="">
+        </div>
+        <div class="espaco-menu text-left" id="fechahamburg">
+          <div class="tamanho margin">
+
+
+            <div class="container column">
+
+              <div class="link-doc">
+                <div class="link-doc-title">
+                  <h1>Documentação</h1>
+                </div>
+                <div class="link-doc-subtitle">
+                  <h2>Conheça</h2>
+                </div>
+                <ul>
+                  <li><a href="/start/sobre">Sobre</a></li>
+                  <li><a href="/start/download">Get Started</a></li>
+
+                </ul>
+              </div>
+
+              <div class="link-doc">
+                <div class="link-doc-subtitle">
+                  <h2>Grid</h2>
+                </div>
+                <ul>
+                  <li><a href="/doc/testes">Aprenda</a></li>
+                  <li><a href="/doc/wrap">Wrap/nowrap</a></li>
+                  <li><a href="/doc/column-row">Column/row</a></li>
+                  <li><a href="/doc/flex">Flex</a></li>
+                  <li><a href="/doc/align">Align</a></li>
+                  <li><a href="/doc/basis">Basis</a></li>
+                  <li><a href="/doc/playground"class="playground">Playground</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<script type="text/javascript">
+var hamburgerAbre = document.getElementById('hamburg');
+var hamburgerFecha = document.getElementById('fecha-menu-hamb');
+
+// ABRIR MENU
+hamburgerAbre.onclick = function() {
+    var abre = document.getElementById('fechahamburg');
+    if (abre.style.display !== 'block') {
+        abre.style.display = 'block';
+    }
+    else {
+        abre.style.display = 'none';
+    }
+};
+// /ABRIR MENU
+
+// FECHAR MENU
+hamburgerFecha.onclick = function() {
+    var fecha = document.getElementById('fechahamburg');
+    if (fecha.style.display !== 'block') {
+        fecha.style.display = 'block';
+    }
+    else {
+        fecha.style.display = 'none';
+    }
+};
+// /FECHAR MENU
+</script>
 
 
 
@@ -77,9 +160,18 @@
       <h2>Conheça</h2>
     </div>
     <ul>
-      <li><a href="/start/sobre">Sobre</a></li>
-      <li><a href="/start/">Começando</a></li>
-      <li><a href="/start/download">Download</a></li>
+      
+        <li><a href="/start/sobre">Sobre</a></li>
+      
+
+
+
+      
+        <li><a href="/start/download">Get Started</a></li>
+      
+
+
+
 
     </ul>
   </div>
@@ -89,13 +181,39 @@
       <h2>Grid</h2>
     </div>
     <ul>
-      <li><a href="/doc/testes">Aprenda</a></li>
-      <li><a href="/doc/flex">Flex</a></li>
-      <li><a href="/doc/align">Align</a></li>
-      <li><a href="/doc/column-row">Column/row</a></li>
-      <li><a href="/doc/wrap">Wrap/nowrap</a></li>
-      <li><a href="/doc/basis">Basis</a></li>
-      <li><a href="/doc/playground"class="playground">Playground</a></li>
+
+      
+        <li><a href="/doc/testes">Aprenda</a></li>
+      
+
+
+
+      
+        <li><a href="/doc/wrap">Wrap/nowrap</a></li>
+      
+
+      
+        <li><a href="/doc/column-row">Column/row</a></li>
+      
+
+
+      
+        <li><a href="/doc/flex">Flex</a></li>
+      
+
+      
+        <li><a href="/doc/align">Align</a></li>
+      
+
+      
+        <li class="link-h"><a href="/doc/basis" class="slec">Basis</a></li>
+      
+
+
+      
+        <li><a href="/doc/playground">Playground</a></li>
+      
+
 
 
     </ul>
@@ -104,16 +222,176 @@
 
     </div>
     <div class="site-conteudo flex basis12">
-        <div class="tamanho margin text-center intro">
+        <div class="tamanho margin intro">
     <h1>BASIS</h1>
     <small>Redimencione a tela</small>
   </div>
+
   <div id="1" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / BASIS1</span>
+    <div class="container container-box">
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+      <div class="teste basis2">
+        <div class="container center-center height-full">
+          <div class="">
+            2
+          </div>
+        </div>
+      </div>
+      <div class="teste basis3">
+        <div class="container center-center height-full">
+          <div class="">
+            3
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
+    </div>
+  </div>
+
+
+  <div id="1" class="cont tamanho margin">
+    <div class="container container-box">
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            2
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            3
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            4
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            5
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
+    </div>
+  </div>
+
+
+  <div id="1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            2
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            3
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            4
+          </div>
+        </div>
+      </div>
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            5
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
+    </div>
+  </div>
+
+  <div id="1" class="cont tamanho margin">
+    <div class="container container-box">
       <div class="teste flex basis1">
         <div class="container center-center height-full">
           <div class="">
@@ -149,16 +427,32 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis1&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
 
   <div id="b2" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis2</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap text-center container-box">
       <div class="teste flex basis2">
         <div class="container center-center height-full">
           <div class="">
@@ -194,15 +488,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b3" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis3</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis3">
         <div class="container center-center height-full">
           <div class="">
@@ -238,15 +548,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b4" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis4</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis4">
         <div class="container center-center height-full">
           <div class="">
@@ -282,15 +608,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis4&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis4&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis4&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis4&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis4&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b5" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis5</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis5">
         <div class="container center-center height-full">
           <div class="">
@@ -326,15 +668,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis5&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis5&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis5&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis5&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis5&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b6" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis6</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis6">
         <div class="container center-center height-full">
           <div class="">
@@ -370,15 +728,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis6&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis6&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis6&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis6&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis6&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b7" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis7</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis7">
         <div class="container center-center height-full">
           <div class="">
@@ -414,15 +788,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis7&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis7&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis7&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis7&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis7&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b8" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis8</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis8">
         <div class="container center-center height-full">
           <div class="">
@@ -458,15 +848,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis8&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis8&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis8&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis8&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis8&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b9" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis9</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis9">
         <div class="container center-center height-full">
           <div class="">
@@ -502,15 +908,31 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
     </div>
   </div>
 
   <div id="b10" class="cont tamanho margin">
-    <div class="text">
-      CONTAINER: <span>CONTAINER / WRAP / CENTER-CENTER / TEXT-CENTER</span><br>
-      ITEM: <span>FLEX / Basis10</span>
-    </div>
-    <div class="container wrap center-center text-center container-box">
+    <div class="container wrap container-box">
       <div class="teste flex basis10">
         <div class="container center-center height-full">
           <div class="">
@@ -546,7 +968,286 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="codigo-p">
+  <div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis10&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis10&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis10&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis10&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis10&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre></div>
+    </div>
+  </div>
 
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis1">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis1&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis2">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis2&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis3">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis3&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis4">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis4&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis5">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis5&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis6">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis6&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis7">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis7&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis8">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis8&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis9">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis9&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis10">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis10&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis11">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis11&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
+    </div>
+  </div>
+
+  <div id="w1" class="cont tamanho margin">
+    <div class="container center-center container-box">
+      <div class="teste basis12">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container center-center&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;basis12&quot;</span><span style="color: #f92672">&gt;</span>
+           <span style="color:#fff">...</span>
+      <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  </pre>
+  </div>
     </div>
   </div>
 

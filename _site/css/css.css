@@ -135,6 +135,10 @@ select:hover {
   border-left: 5px solid #222222;
   padding-left: 20px;
 }
+.link-h {
+  border-left: 5px solid #222222!important;
+  padding-left: 20px!important;
+}
 .link-doc a {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.3);
@@ -172,6 +176,62 @@ select:hover {
 }
 .git {
   color: #ff4455
+}
+.item-lista {
+  min-width: 500px;
+  max-width: 90%;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px
+}
+.item-lista-1 {
+  margin: 10px;
+}
+.img-git {
+  border-radius: 50%;
+  margin-right: 10px
+}
+.cor-principal {
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
+}
+.date-git {
+  font-size: 12px;
+  font-style: italic;
+}
+.item-commit {
+  color: #ff4455;
+  text-transform: uppercase;
+}
+.text-p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.mt1 {
+  padding-bottom: 30px;
+}
+#hamburg {
+  cursor: pointer;
+}
+.espaco-menu {
+  display: none;
+  position: absolute;
+  background: #fff;
+  top:70px;
+  width: 100%;
+  height: calc(100% - 70px);
+  left: 0;
+  z-index: 9;
+  transition: 1s;
+  color: rgba(0, 0, 0, 0.5);
+  animation: entra .3s linear;
+}
+.slec {
+  color: rgba(0, 0, 0, 1)!important
+}
+@keyframes entra {
+  from {opacity: 0}
+    to {opacity: 1}
 }
 @media only screen and (max-width: 768px) {
   .some-phone {
