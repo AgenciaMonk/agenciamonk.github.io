@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Get Started</title>
+  <title></title>
   <link rel="stylesheet" href="/css/css.css">
   <link rel="stylesheet" href="/css/flexalign.css">
 </head>
@@ -104,34 +104,76 @@
 
     </div>
     <div class="site-conteudo flex basis12">
-      <h1>get-started</h1>
-
-<div class="codigo" style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;link</span> <span style="color: #a6e22e">rel=</span><span style="color: #e6db74">&quot;stylesheet&quot;</span> <span style="color: #a6e22e">type=</span><span style="color: #e6db74">&quot;text/css&quot;</span> <span style="color: #a6e22e">href=</span><span style="color: #e6db74">&quot;https://agenciamonk.github.io/dist/monk.css&quot;</span><span style="color: #f92672">&gt;</span>
-</pre></div>
-
-<!-- <div class="content list">
-  
-    
-      <div class="list-item">
-        <h2 class="list-post-title">
-          <a href="/hello-minimal/" style="color: black">Hello Minimal!</a>
-        </h2>
-        <div class="list-post-date">
-          <time>17 Mar 2016</time>
+        <div class="container wrap-tablet" style="height: 100%;">
+    <div class="item">
+      <div class="container center-center" style="min-height: 100%;">
+        <div class="input-form">
+          <div class="input-form-text">
+            <h1>Flexbox align</h1>
+          </div>
+          <select onchange="wow(this.value)">
+            <option value="tl">top-left</option>
+            <option value="tc">top-center</option>
+            <option value="tr">top-right</option>
+            <option value="cl">center-left</option>
+            <option value="cc" selected>center-center</option>
+            <option value="cr">center-right</option>
+            <option value="bl">bottom-left</option>
+            <option value="bc">bottom-center</option>
+            <option value="br">bottom-right</option>
+          </select>
         </div>
       </div>
-    
-      <div class="list-item">
-        <h2 class="list-post-title">
-          <a href="/welcome-to-jekyll/" style="color: black">Welcome to Jekyll!</a>
-        </h2>
-        <div class="list-post-date">
-          <time>13 Mar 2016</time>
+    </div>
+    <div class="item bg-color">
+      <div id="flexAlign" class="container center-center" style="min-height: 100%;">
+        <div class="margin2">
+          <img src="/img/logo.svg" width="200" alt="">
         </div>
       </div>
-    
-  
-</div> -->
+    </div>
+  </div>
+  <script type="text/javascript">
+  function wow(value) {
+  switch (value) {
+      case "tl":
+          document.getElementById("flexAlign").setAttribute("class", "container top-left");
+          break;
+      case "tc":
+          document.getElementById("flexAlign").setAttribute("class", "container top-center");
+          break;
+      case "tr":
+          document.getElementById("flexAlign").setAttribute("class", "container top-right");
+          break;
+
+      case "cl":
+          document.getElementById("flexAlign").setAttribute("class", "container center-left");
+          break;
+
+      case "cc":
+          document.getElementById("flexAlign").setAttribute("class", "container center-center");
+          break;
+
+      case "cr":
+          document.getElementById("flexAlign").setAttribute("class", "container center-right");
+          break;
+
+      case "bl":
+          document.getElementById("flexAlign").setAttribute("class", "container bottom-left");
+          break;
+
+      case "bc":
+          document.getElementById("flexAlign").setAttribute("class", "container bottom-center");
+          break;
+
+      case "br":
+          document.getElementById("flexAlign").setAttribute("class", "container bottom-right");
+          break;
+
+  }
+}
+
+  </script>
 
     </div>
   </div>

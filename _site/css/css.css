@@ -80,6 +80,13 @@ select:hover {
 .intro {
   padding-top: 20px;
 }
+.intro h1 {
+  font-size: 20px;
+}
+.intro small {
+  font-size: 12px;
+  opacity: .5
+}
 .menu-full {
   background: #222222
 }
@@ -161,7 +168,7 @@ select:hover {
   color: #fff;
   border:none;
   outline: none;
-  font-size: 20px
+  font-size: 20gitpx
 }
 .git {
   color: #ff4455
