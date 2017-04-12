@@ -18,6 +18,7 @@ a {
 }
 select {
   width: 100%;
+  max-width: 90%;
   height: 50px;
   outline: none;
   color: #222222;
@@ -95,7 +96,7 @@ select:hover {
   color: #fff!important
 }
 .item-menu {
-  margin: 10px;
+  margin: 20px;
 }
 .link-menu {
   margin: 10px;
@@ -177,6 +178,9 @@ select:hover {
 .git {
   color: #ff4455
 }
+.item {
+  height: 100%;
+}
 .item-lista {
   min-width: 500px;
   max-width: 90%;
@@ -229,6 +233,20 @@ select:hover {
 .slec {
   color: rgba(0, 0, 0, 1)!important
 }
+.play-playground {
+  margin-top: 20px;
+  height: 100%;
+  border: 1px solid #ccc
+}
+.item-playground {
+  margin: 10px;
+  background: #222;
+  padding: 10px;
+
+}
+
+
+
 @keyframes entra {
   from {opacity: 0}
     to {opacity: 1}
