@@ -18,7 +18,6 @@ a {
 }
 select {
   width: 100%;
-  max-width: 90%;
   height: 50px;
   outline: none;
   color: #222222;
@@ -36,8 +35,7 @@ select:hover {
   margin: 20px
 }
 .input-form {
-  width: 400px;
-  max-width: 90%;
+  margin: 10px;
 }
 .bg-color {
   background: #222222;
@@ -168,7 +166,7 @@ select:hover {
 }
 .btn-download {
   width: 300px;
-  height: 50px;
+  height: 100%;
   background: #222222;
   color: #fff;
   border:none;
@@ -236,15 +234,27 @@ select:hover {
 .play-playground {
   margin-top: 20px;
   height: 100%;
-  border: 1px solid #ccc
+  border: 1px solid #ccc;
+  color: #fff
 }
+
 .item-playground {
   margin: 10px;
   background: #222;
   padding: 10px;
-
 }
-
+.item-playground2 {
+  margin: 10px;
+  background: #222;
+  padding: 10px;
+}
+.item-playground2:first-child {
+  display: none
+}
+.item-playground  select {
+  background: transparent;
+  color: #fff
+}
 
 
 @keyframes entra {

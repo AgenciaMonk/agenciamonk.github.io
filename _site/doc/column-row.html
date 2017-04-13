@@ -46,6 +46,10 @@
       
         
       
+        
+      
+        
+      
     </div>
     <div class="item-menu flex1 basis2 text-right some-desk">
       <div class="img-menu">
@@ -64,7 +68,6 @@
         <a href=" /# "><img src=" /img/logo.svg " width="200" alt=""></a>
       </div>
     </div>
-
 
     <div class="item-menu flex6 basis6 text-right some-phone">
       
@@ -96,6 +99,10 @@
       
         
       
+        
+      
+        
+      
     </div>
 
     <div class="item-menu flex basis2 text-right some-desk">
@@ -106,68 +113,57 @@
         <div class="espaco-menu text-left" id="fechahamburg">
           <div class="tamanho margin">
             <div class="container column">
+
               <div class="link-doc">
                 <div class="link-doc-title">
                   <h1>Documentação</h1>
                 </div>
                 <div class="link-doc-subtitle">
-                  <h2>Conheça</h2>
+                  <h2>Get-started</h2>
                 </div>
                 <ul>
+                  
                   <li><a href=" /start/sobre ">Sobre</a></li>
-                  <li><a href=" /start/download ">Get Started</a></li>
+                   
+                  <li><a href=" /start/download ">Download</a></li>
+                  
                 </ul>
               </div>
+
               <div class="link-doc">
                 <div class="link-doc-subtitle">
                   <h2>Grid</h2>
                 </div>
                 <ul>
+
+                  
                   <li><a href=" /doc/testes ">Aprenda</a></li>
+                   
                   <li><a href=" /doc/wrap ">Wrap/nowrap</a></li>
-                  <li><a href=" /doc/column-row ">Column/row</a></li>
+                   
+                  <li class="link-h"><a href=" /doc/column-row " class="slec">Column/row</a></li>
+                   
                   <li><a href=" /doc/flex ">Flex</a></li>
+                   
                   <li><a href=" /doc/align ">Align</a></li>
+                   
                   <li><a href=" /doc/basis ">Basis</a></li>
-                  <li><a href=" /doc/playground "class="playground">Playground</a></li>
+                   
+                  <li><a href=" /doc/playground ">Playground</a></li>
+                  
+
+
+
                 </ul>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </div>
-
-
-<script type="text/javascript">
-  var hamburgerAbre = document.getElementById('hamburg');
-  var hamburgerFecha = document.getElementById('fecha-menu-hamb');
-
-  // ABRIR MENU
-  hamburgerAbre.onclick = function() {
-    var abre = document.getElementById('fechahamburg');
-    if (abre.style.display !== 'block') {
-      abre.style.display = 'block';
-    } else {
-      abre.style.display = 'none';
-    }
-  };
-  // /ABRIR MENU
-
-  // FECHAR MENU
-  hamburgerFecha.onclick = function() {
-    var fecha = document.getElementById('fechahamburg');
-    if (fecha.style.display !== 'block') {
-      fecha.style.display = 'block';
-    } else {
-      fecha.style.display = 'none';
-    }
-  };
-  // /FECHAR MENU
-</script>
 
 
 
@@ -180,22 +176,14 @@
       <h1>Documentação</h1>
     </div>
     <div class="link-doc-subtitle">
-      <h2>Conheça</h2>
+      <h2>Get-started</h2>
     </div>
     <ul>
       
-        <li><a href="/start/sobre">Sobre</a></li>
+      <li><a href=" /start/sobre ">Sobre</a></li>
+       
+      <li><a href=" /start/download ">Download</a></li>
       
-
-
-
-      
-        <li><a href="/start/download">Get Started</a></li>
-      
-
-
-
-
     </ul>
   </div>
 
@@ -206,35 +194,19 @@
     <ul>
 
       
-        <li><a href="/doc/testes">Aprenda</a></li>
-      
-
-
-
-      
-        <li><a href="/doc/wrap">Wrap/nowrap</a></li>
-      
-
-      
-        <li class="link-h"><a href="/doc/column-row" class="slec">Column/row</a></li>
-      
-
-
-      
-        <li><a href="/doc/flex">Flex</a></li>
-      
-
-      
-        <li><a href="/doc/align">Align</a></li>
-      
-
-      
-        <li><a href="/doc/basis">Basis</a></li>
-      
-
-
-      
-        <li><a href="/doc/playground">Playground</a></li>
+      <li><a href=" /doc/testes ">Aprenda</a></li>
+       
+      <li><a href=" /doc/wrap ">Wrap/nowrap</a></li>
+       
+      <li class="link-h"><a href=" /doc/column-row " class="slec">Column/row</a></li>
+       
+      <li><a href=" /doc/flex ">Flex</a></li>
+       
+      <li><a href=" /doc/align ">Align</a></li>
+       
+      <li><a href=" /doc/basis ">Basis</a></li>
+       
+      <li><a href=" /doc/playground ">Playground</a></li>
       
 
 
@@ -449,6 +421,44 @@
 
     </div>
   </div>
+  
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  var hamburgerAbre = document.getElementById('hamburg');
+  var hamburgerFecha = document.getElementById('fecha-menu-hamb');
+
+  // ABRIR MENU
+  hamburgerAbre.onclick = function() {
+    var abre = document.getElementById('fechahamburg');
+    if (abre.style.display !== 'block') {
+      abre.style.display = 'block';
+    } else {
+      abre.style.display = 'none';
+    }
+  };
+  // /ABRIR MENU
+
+  // FECHAR MENU
+  hamburgerFecha.onclick = function() {
+    var fecha = document.getElementById('fechahamburg');
+    if (fecha.style.display !== 'block') {
+      fecha.style.display = 'block';
+    } else {
+      fecha.style.display = 'none';
+    }
+  };
+  // /FECHAR MENU
+</script>
+
 </body>
 
 </html>

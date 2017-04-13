@@ -149,7 +149,7 @@
                    
                   <li><a href=" /doc/basis ">Basis</a></li>
                    
-                  <li class="link-h"><a href=" /doc/playground " class="slec">Playground</a></li>
+                  <li><a href=" /doc/playground ">Playground</a></li>
                   
 
 
@@ -206,7 +206,7 @@
        
       <li><a href=" /doc/basis ">Basis</a></li>
        
-      <li class="link-h"><a href=" /doc/playground " class="slec">Playground</a></li>
+      <li><a href=" /doc/playground ">Playground</a></li>
       
 
 
@@ -219,7 +219,7 @@
     <div class="site-conteudo flex basis12">
       <div class="container column height-full" style="">
   <div class="menu-playground">
-    <div class="container center-center height-full" style="min-height: 100%;">
+    <div class="container height-full" style="min-height: 100%;">
 
       <div class="input-form text-left flex">
         <h2>Container</h2>
@@ -264,28 +264,53 @@
           <option value="textalign3">text-right</option>
         </select>
       </div>
+      <div class="input-form flex">
+        <button id="submit1" class="btn-download" name="button">ADD</button>
+      </div>
 
 
 
     </div>
   </div>
-  <div class="play-playground height-full">
+  <div class="play-playground">
 
 
-    <div class="item height-full" >
-      <div id="flexAlign" class="container center-center height-full" style="min-height: 100%;">
-        <div id="basisAlign" class="item-playground basis3">
-          <div class="text-center" id="textAlign">
-            <img src="/img/logo.svg" width="200" alt="">
+    <div class="item" >
+      <div id="flexAlign" class="container wrap center-center" style="min-height: 100%;">
+
+          <div id="basisAlign" class="item-playground2 basis3" >
+            <div class="text-center" id="textAlign">
+              <img src="/img/logo.svg" width="200" alt="">
+            </div>
           </div>
-        </div>
+
+
       </div>
     </div>
 
 
   </div>
 </div>
+
+
+
+    </div>
   <script type="text/javascript">
+  var box = document.getElementById('flexAlign'),
+    template = box.getElementsByTagName('div'),
+
+
+
+template = template[0];
+var counter = 1;
+submit1.onclick = function () {
+    var new_field = template.cloneNode(true);
+    new_field.id = new_field.id + counter++
+    console.log(new_field.id)
+    box.appendChild(new_field);
+    return false;
+};
+
 
 // basis
 
