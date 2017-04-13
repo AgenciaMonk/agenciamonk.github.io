@@ -180,14 +180,15 @@ select:hover {
   height: 100%;
 }
 .item-lista {
-  min-width: 500px;
-  max-width: 90%;
   margin: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px
 }
 .item-lista-1 {
   margin: 10px;
+}
+.log {
+  width: 100%
 }
 .img-git {
   border-radius: 50%;
@@ -202,8 +203,9 @@ select:hover {
   font-style: italic;
 }
 .item-commit {
-  color: #ff4455;
+  color: #222222;
   text-transform: uppercase;
+  font-weight: 900
 }
 .text-p {
   font-size: 12px;
@@ -255,8 +257,35 @@ select:hover {
   background: transparent;
   color: #fff
 }
-
-
+.footer {
+  height: 100px;
+  width: 100%;
+  display: block;
+  padding-top: 50px;
+  font-size: 12px;
+}
+.browser-sup {
+  padding-bottom: 20px;
+}
+.text-p h3 {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.9);
+  padding-bottom: 3px
+}
+.espe {
+  padding-top: 10px;
+  padding-bottom: 5px
+}
+.text-p h2 {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.text-p ul {
+  margin-left: 20px;
+}
+.text-p span {
+  color: rgba(0, 0, 0, 0.7);
+}
 @keyframes entra {
   from {opacity: 0}
     to {opacity: 1}

@@ -3,13 +3,49 @@ layout: default
 permalink: /doc/testes
 ---
 
-<div class="tamanho margin intro">
-  <h1>Testes</h1>
+<div class=" margin intro">
+  <h1>Aprenda a usar o Framework</h1>
   <small>Redimencione a tela</small>
 </div>
+<div class="text-p">
+  <br />
+  <p>O grid é baseado em <strong>CONTAINER</strong> e <strong>ITEM.</strong></p>
+</div>
+<div class="text-p">
+  <h2>Classes para o container</h2>
+</div>
+<div class="text-p">
+  <ul>
+    <li>CONTAINER*</li>
+    <li>ROW OU COLUMN</li>
+    <li>WRAP OU NOWRAP</li>
+    <li>TOP-LEFT</li>
+    <li>TOP-CENTER</li>
+    <li>TOP-BOTTOM</li>
+    <p class="espe">CLASSES PARA ALINHAS OS ITENS:</p>
+    <li>CENTER-LEFT</li>
+    <li>CENTER-CENTER</li>
+    <li>CENTER-BOTTOM</li>
+    <li>BOTTOM-LEFT</li>
+    <li>BOTTOM-CENTER</li>
+    <li>BOTTOM-BOTTOM</li>
 
+  </ul>
 
-<div id="w1" class="cont tamanho margin">
+  <h3>#CONTAINER</h3>
+  <p>Toda div pai deverá ter a classe <span>CONTAINER.</span></p>
+
+  <h3>#ROW ou COLUMN</h3>
+  <p>Utilizando <span>ROW</span> a posição sera Horizontal, <span>COLUMN</span> a posição sera Vertical.</p>
+  <a class="git" href="{{ " /doc/column-row " | prepend: site.baseurl }}">Ler mais</a>
+
+  <h3>#WRAP ou NOWRAP</h3>
+  <p><span>WRAP</span> significa que os itens vão quebrar quando não tiverem mais espaço. Para o <span>WRAP</span> funcionar é obrigatório os itens terem a classe <span>BASIS</span>(BASIS1 A BASIS12).</p>
+  <p><span>NOWRAP</span> já é default, ela impede que os itens quebrem quando não tiver espaço.</p>
+  <a class="git" href="{{ " /doc/wrap" | prepend: site.baseurl }}">Ler mais</a>
+
+</div>
+<div id="w1" class="cont margin">
   <div class="container wrap center-center container-box2">
     <div class="teste flex basis3">
       <div class="container center-center height-full">
@@ -50,7 +86,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -82,7 +118,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container container-box">
     <div class="teste basis2">
       <div class="container center-center height-full">
@@ -123,7 +159,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container container-box">
     <div class="teste basis2">
       <div class="container center-center height-full">
@@ -154,7 +190,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container space-between container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -185,7 +221,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container container-box">
     <div class="teste basis2">
       <div class="container center-center height-full">
@@ -236,7 +272,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container center-center container-box">
     <div class="teste basis2">
       <div class="container center-center height-full">
@@ -277,7 +313,7 @@ permalink: /doc/testes
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont  margin">
   <div class="container center-center container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">

@@ -1,17 +1,20 @@
 {% include head.html %}
 <body>
   {% include header.html %}
-
-
   <div class="container space-between container-site wrap-mobile">
     <div class="site-menu flex1 some-phone">
       {% include menu.html %}
     </div>
     <div class="site-conteudo flex basis12">
       {{ content }}
+      <footer>
+        <div class="footer container center-center">
+            Todos os direitos reservados. 2017
+        </div>
+      </footer>
+
     </div>
   </div>
   {% include script.html %}
 </body>
-
 </html>
