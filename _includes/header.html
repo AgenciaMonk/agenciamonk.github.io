@@ -55,7 +55,7 @@
                   <h2>Get-started</h2>
                 </div>
                 <ul>
-                  {% if page.url == "/start/sobre" %}
+                  {% if page.url == "/start" %}
                   <li class="link-h"><a href="{{ " /start/sobre " | prepend: site.baseurl }}" class="slec">Sobre</a></li>
                   {% else %}
                   <li><a href="{{ " /start/sobre " | prepend: site.baseurl }}">Sobre</a></li>
@@ -63,7 +63,11 @@
                   <li class="link-h"><a href="{{ " /start/download " | prepend: site.baseurl }}" class="slec">Download</a></li>
                   {% else %}
                   <li><a href="{{ " /start/download " | prepend: site.baseurl }}">Download</a></li>
-                  {% endif %}
+                  {% endif %}  {% if page.url == "/start/exemplos" %}
+                    <li class="link-h"><a href="{{ " /start/exemplos " | prepend: site.baseurl }}" class="slec">Exemplos</a></li>
+                    {% else %}
+                    <li><a href="{{ " /start/exemplos " | prepend: site.baseurl }}">Exemplos</a></li>
+                    {% endif %}
                 </ul>
               </div>
 
@@ -73,10 +77,10 @@
                 </div>
                 <ul>
 
-                  {% if page.url == "/doc/testes" %}
-                  <li class="link-h"><a href="{{ " /doc/testes " | prepend: site.baseurl }}" class="slec">Aprenda</a></li>
+                  {% if page.url == "/doc/aprenda" %}
+                  <li class="link-h"><a href="{{ " /doc/aprenda " | prepend: site.baseurl }}" class="slec">Aprenda</a></li>
                   {% else %}
-                  <li><a href="{{ " /doc/testes " | prepend: site.baseurl }}">Aprenda</a></li>
+                  <li><a href="{{ " /doc/aprenda " | prepend: site.baseurl }}">Aprenda</a></li>
                   {% endif %} {% if page.url == "/doc/wrap" %}
                   <li class="link-h"><a href="{{ " /doc/wrap " | prepend: site.baseurl }}" class="slec">Wrap/nowrap</a></li>
                   {% else %}

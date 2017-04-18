@@ -3,13 +3,14 @@ layout: default
 permalink: /doc/column-row
 ---
 
-<div class="tamanho margin intro">
+<div class="margin intro">
   <h1>COLUMN/<WBR />ROW/<WBR />COLUMN-REVERSE/<WBR />ROW-REVERSE</h1>
-  <small>Redimencione a tela</small>
+  <small>Utilizando a class <span>ROW</span> a posição será Horizontal, e <span>COLUMN</span> a posição será Vertical.</small>
 </div>
 
-<div id="c1" class="cont tamanho margin">
-  <div class="container row nowrap container-box">
+<div id="c1" class="cont margin">
+  ROW
+  <div class="container row container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
         <div class="">
@@ -33,7 +34,7 @@ permalink: /doc/column-row
     </div>
   </div>
   <div class="codigo-p">
-  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container row nowrap&quot;</span><span style="color: #f92672">&gt;</span>
+  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container row&quot;</span><span style="color: #f92672">&gt;</span>
       <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex&quot;</span><span style="color: #f92672">&gt;</span>
         <span style="color:#fff">...</span>
       <span style="color: #f92672">&lt;/div&gt;</span>
@@ -47,8 +48,9 @@ permalink: /doc/column-row
   </div>
 </div>
 
-<div id="c1" class="cont tamanho margin">
-  <div class="container row-reverse nowrap container-box">
+<div id="c1" class="cont margin">
+  ROW-REVERSE
+  <div class="container row-reverse container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
         <div class="">
@@ -72,7 +74,7 @@ permalink: /doc/column-row
     </div>
   </div>
   <div class="codigo-p">
-  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container row-reverse nowrap&quot;</span><span style="color: #f92672">&gt;</span>
+  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container row-reverse&quot;</span><span style="color: #f92672">&gt;</span>
       <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex&quot;</span><span style="color: #f92672">&gt;</span>
         <span style="color:#fff">...</span>
       <span style="color: #f92672">&lt;/div&gt;</span>
@@ -86,48 +88,11 @@ permalink: /doc/column-row
   </div>
 </div>
 
-<div id="c1" class="cont tamanho margin">
-  <div class="container wrap row container-box">
-    <div class="teste flex basis3">
-      <div class="container center-center height-full">
-        <div class="">
-          1
-        </div>
-      </div>
-    </div>
-    <div class="teste flex basis3">
-      <div class="container center-center height-full">
-        <div class="">
-          2
-        </div>
-      </div>
-    </div>
-    <div class="teste flex basis3">
-      <div class="container center-center height-full">
-        <div class="">
-          3
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="codigo-p">
-  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container row wrap&quot;</span><span style="color: #f92672">&gt;</span>
-      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
-        <span style="color:#fff">...</span>
-      <span style="color: #f92672">&lt;/div&gt;</span>
-      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
-        <span style="color:#fff">...</span>
-      <span style="color: #f92672">&lt;/div&gt;</span>
-      <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
-        <span style="color:#fff">...</span>
-      <span style="color: #f92672">&lt;/div&gt;</span>
-  <span style="color: #f92672">&lt;/div&gt;</span></pre></div>
-  </div>
-</div>
 
 
 
-<div id="c2" class="cont tamanho margin">
+<div id="c2" class="cont margin">
+  COLUMN
   <div class="container column container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
@@ -166,7 +131,8 @@ permalink: /doc/column-row
   </div>
 </div>
 
-<div id="c2" class="cont tamanho margin">
+<div id="c2" class="cont margin">
+  COLUMN-REVERSE
   <div class="container column-reverse container-box">
     <div class="teste flex">
       <div class="container center-center height-full">

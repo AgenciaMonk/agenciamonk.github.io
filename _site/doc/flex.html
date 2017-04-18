@@ -73,6 +73,8 @@
         
       
         
+      
+        
           <a href="/" class="link-menu">Get Started</a>
         
       
@@ -110,6 +112,8 @@
     </div>
 
     <div class="item-menu flex6 basis6 text-right some-phone">
+      
+        
       
         
       
@@ -166,7 +170,9 @@
                   <li><a href=" /start/sobre ">Sobre</a></li>
                    
                   <li><a href=" /start/download ">Download</a></li>
-                  
+                    
+                    <li><a href=" /start/exemplos ">Exemplos</a></li>
+                    
                 </ul>
               </div>
 
@@ -177,7 +183,7 @@
                 <ul>
 
                   
-                  <li><a href=" /doc/testes ">Aprenda</a></li>
+                  <li><a href=" /doc/aprenda ">Aprenda</a></li>
                    
                   <li><a href=" /doc/wrap ">Wrap/nowrap</a></li>
                    
@@ -222,6 +228,12 @@
        
       <li><a href=" /start/download ">Download</a></li>
       
+
+
+
+      
+      <li><a href=" /start/exemplos ">Exemplos</a></li>
+      
     </ul>
   </div>
 
@@ -232,7 +244,7 @@
     <ul>
 
       
-      <li><a href=" /doc/testes ">Aprenda</a></li>
+      <li><a href=" /doc/aprenda ">Aprenda</a></li>
        
       <li><a href=" /doc/wrap ">Wrap/nowrap</a></li>
        
@@ -244,7 +256,7 @@
        
       <li><a href=" /doc/basis ">Basis</a></li>
        
-      <li><a href=" /doc/playground ">Playground</a></li>
+      <li><a href=" /doc/playground " class="slecp">Playground</a></li>
       
 
 
@@ -255,12 +267,17 @@
 
     </div>
     <div class="site-conteudo flex basis12">
-      <div class="tamanho margin intro">
+      <div class="margin intro">
   <h1>Flex</h1>
   <small>Redimencione a tela</small>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div class="intro">
+  flex a flex12<br />
+  <small>A classe <strong>Flex</strong> pega todo o espaço que está sobrando.</small>
+  <small>Já a <strong>Classe</strong> flex1 a flex12 divide os valores entre si.</small>
+</div>
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
@@ -279,7 +296,76 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+
+<div id="w1" class="cont margin">
+  <div class="container container-box">
+    <div class="teste flex">
+      <div class="container center-center height-full">
+        <div class="">
+          1
+        </div>
+      </div>
+    </div>
+    <div class="teste flex2">
+      <div class="container center-center height-full">
+        <div class="">
+          2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="codigo-p">
+  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span></pre></div>
+  </div>
+</div>
+
+<div id="w1" class="cont margin">
+  <div class="container container-box">
+    <div class="teste flex">
+      <div class="container center-center height-full">
+        <div class="">
+          1
+        </div>
+      </div>
+    </div>
+    <div class="teste flex2">
+      <div class="container center-center height-full">
+        <div class="">
+          2
+        </div>
+      </div>
+    </div>
+    <div class="teste flex3">
+      <div class="container center-center height-full">
+        <div class="">
+          3
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="codigo-p">
+  <div class="codigo" style="background: #222222; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex2&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;flex3&quot;</span><span style="color: #f92672">&gt;</span>
+      <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span></pre></div>
+  </div>
+</div>
+
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
@@ -308,7 +394,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
@@ -347,7 +433,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
 
   <div class="container container-box">
     <div class="teste flex">
@@ -397,7 +483,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
 
   <div class="container container-box">
     <div class="teste flex">
@@ -457,7 +543,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
 
   <div class="container container-box">
     <div class="teste basis1">
@@ -487,7 +573,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
 
   <div class="container container-box">
     <div class="teste basis1">
@@ -527,7 +613,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -577,7 +663,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -637,7 +723,7 @@
 </div>
 
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -707,7 +793,7 @@
 </div>
 
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -786,7 +872,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -875,7 +961,7 @@
   </div>
 </div>
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -975,7 +1061,7 @@
 </div>
 
 
-<div id="w1" class="cont tamanho margin">
+<div id="w1" class="cont margin">
   <div class="container container-box">
     <div class="teste basis1">
       <div class="container center-center height-full">
@@ -1084,15 +1170,12 @@
   </div>
 </div>
 
-      <footer>
-        <div class="footer container center-center">
-            Todos os direitos reservados. 2017
-        </div>
-      </footer>
 
     </div>
   </div>
   
+
+
 
 
 

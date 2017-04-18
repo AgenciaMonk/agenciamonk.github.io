@@ -160,9 +160,16 @@ select:hover {
   font-weight: normal!important;
   padding: 10px;
   margin-top: 10px;
+  opacity: .9;
+  transition: .3s
+}
+.codigo:hover {
+  opacity: 1
 }
 .codigo pre {
   padding: 10px;
+  font-size: 10px;
+  font-weight: normal;
 }
 .btn-download {
   width: 300px;
@@ -211,6 +218,9 @@ select:hover {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
 }
+.text-p ul{
+  text-transform: uppercase;
+}
 .mt1 {
   padding-bottom: 30px;
 }
@@ -232,6 +242,9 @@ select:hover {
 }
 .slec {
   color: rgba(0, 0, 0, 1)!important
+}
+.slecp {
+  color: #ff4455!important
 }
 .play-playground {
   margin-top: 20px;

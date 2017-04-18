@@ -17,6 +17,14 @@
       {% else %}
       <li><a href="{{ " /start/download " | prepend: site.baseurl }}">Download</a></li>
       {% endif %}
+
+
+
+      {% if page.url == "/start/exemplos" %}
+      <li class="link-h"><a href="{{ " /start/exemplos " | prepend: site.baseurl }}" class="slec">Exemplos</a></li>
+      {% else %}
+      <li><a href="{{ " /start/exemplos " | prepend: site.baseurl }}">Exemplos</a></li>
+      {% endif %}
     </ul>
   </div>
 
@@ -26,10 +34,10 @@
     </div>
     <ul>
 
-      {% if page.url == "/doc/testes" %}
-      <li class="link-h"><a href="{{ " /doc/testes " | prepend: site.baseurl }}" class="slec">Aprenda</a></li>
+      {% if page.url == "/doc/aprenda" %}
+      <li class="link-h"><a href="{{ " /doc/aprenda " | prepend: site.baseurl }}" class="slec">Aprenda</a></li>
       {% else %}
-      <li><a href="{{ " /doc/testes " | prepend: site.baseurl }}">Aprenda</a></li>
+      <li><a href="{{ " /doc/aprenda " | prepend: site.baseurl }}">Aprenda</a></li>
       {% endif %} {% if page.url == "/doc/wrap" %}
       <li class="link-h"><a href="{{ " /doc/wrap " | prepend: site.baseurl }}" class="slec">Wrap/nowrap</a></li>
       {% else %}
@@ -51,9 +59,9 @@
       {% else %}
       <li><a href="{{ " /doc/basis " | prepend: site.baseurl }}">Basis</a></li>
       {% endif %} {% if page.url == "/doc/playground" %}
-      <li class="link-h"><a href="{{ " /doc/playground " | prepend: site.baseurl }}" class="slec">Playground</a></li>
+      <li class="link-h"><a href="{{ " /doc/playground " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
       {% else %}
-      <li><a href="{{ " /doc/playground " | prepend: site.baseurl }}">Playground</a></li>
+      <li><a href="{{ " /doc/playground " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
       {% endif %}
 
 

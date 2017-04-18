@@ -1,15 +1,29 @@
 ---
 layout: default
-permalink: /doc/testes
+permalink: /doc/aprenda
 ---
 
 <div class=" margin intro">
   <h1>Aprenda a usar o Framework</h1>
-  <small>Redimencione a tela</small>
 </div>
 <div class="text-p">
   <br />
   <p>O grid é baseado em <strong>CONTAINER</strong> e <strong>ITEM.</strong></p>
+
+
+  <h3>#CONTAINER</h3>
+  <p>Toda div pai deverá ter a classe <span>CONTAINER.</span></p>
+
+
+  <div class="codigo-p">
+    <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;item&quot;</span><span style="color: #f92672">&gt;</span>
+         <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+</pre>
+</div>
+  </div>
 </div>
 <div class="text-p">
   <h2>Classes para o container</h2>
@@ -22,29 +36,80 @@ permalink: /doc/testes
     <li>TOP-LEFT</li>
     <li>TOP-CENTER</li>
     <li>TOP-BOTTOM</li>
-    <p class="espe">CLASSES PARA ALINHAS OS ITENS:</p>
     <li>CENTER-LEFT</li>
     <li>CENTER-CENTER</li>
     <li>CENTER-BOTTOM</li>
     <li>BOTTOM-LEFT</li>
     <li>BOTTOM-CENTER</li>
     <li>BOTTOM-BOTTOM</li>
-
+    <li>space-between</li>
+    <li>space-between-top</li>
+    <li>space-between-center</li>
+    <li>space-between-bottom</li>
+    <li>space-between-stretch</li>
+    <li>space-between-baseline</li>
+    <li>space-around</li>
+    <li>space-around-top</li>
+    <li>space-around-center</li>
+    <li>space-around-bottom</li>
+    <li>space-around-stretch</li>
+    <li>space-around-baseline</li>
   </ul>
-
-  <h3>#CONTAINER</h3>
-  <p>Toda div pai deverá ter a classe <span>CONTAINER.</span></p>
-
-  <h3>#ROW ou COLUMN</h3>
-  <p>Utilizando <span>ROW</span> a posição sera Horizontal, <span>COLUMN</span> a posição sera Vertical.</p>
-  <a class="git" href="{{ " /doc/column-row " | prepend: site.baseurl }}">Ler mais</a>
-
-  <h3>#WRAP ou NOWRAP</h3>
-  <p><span>WRAP</span> significa que os itens vão quebrar quando não tiverem mais espaço. Para o <span>WRAP</span> funcionar é obrigatório os itens terem a classe <span>BASIS</span>(BASIS1 A BASIS12).</p>
-  <p><span>NOWRAP</span> já é default, ela impede que os itens quebrem quando não tiver espaço.</p>
-  <a class="git" href="{{ " /doc/wrap" | prepend: site.baseurl }}">Ler mais</a>
-
+  </div>
+<br />
+  ex:
+  <div class="codigo-p">
+    <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap center-center&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;item&quot;</span><span style="color: #f92672">&gt;</span>
+         <span style="color:#fff">...</span>
+    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+</pre>
 </div>
+  </div>
+
+  <div class="text-p">
+    <h2>Classes para o item</h2>
+    <ul>
+      <li>flex</li>
+      <li>flex1</li>
+      <li>flex2</li>
+      <li>flex3</li>
+      <li>flex4</li>
+      <li>flex5</li>
+      <li>flex6</li>
+      <li>flex7</li>
+      <li>flex8</li>
+      <li>flex9</li>
+      <li>flex10</li>
+      <li>flex11</li>
+      <li>flex12</li><br />
+
+      <li>basis1</li>
+      <li>basis2</li>
+      <li>basis3</li>
+      <li>basis4</li>
+      <li>basis5</li>
+      <li>basis6</li>
+      <li>basis7</li>
+      <li>basis8</li>
+      <li>basis9</li>
+      <li>basis10</li>
+      <li>basis11</li>
+      <li>basis12</li>
+
+    </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
 <div id="w1" class="cont margin">
   <div class="container wrap center-center container-box2">
     <div class="teste flex basis3">
