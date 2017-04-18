@@ -3,10 +3,10 @@
   <channel>
     <title>Monk</title>
     <description>Monk Framework</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Apr 2017 17:25:55 -0300</pubDate>
-    <lastBuildDate>Tue, 18 Apr 2017 17:25:55 -0300</lastBuildDate>
+    <link>http://agenciamonk.github.io/</link>
+    <atom:link href="http://agenciamonk.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Apr 2017 17:28:20 -0300</pubDate>
+    <lastBuildDate>Tue, 18 Apr 2017 17:28:20 -0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -36,8 +36,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Thu, 17 Mar 2016 23:28:03 -0300</pubDate>
-        <link>http://localhost:4000/hello-minimal/</link>
-        <guid isPermaLink="true">http://localhost:4000/hello-minimal/</guid>
+        <link>http://agenciamonk.github.io/hello-minimal/</link>
+        <guid isPermaLink="true">http://agenciamonk.github.io/hello-minimal/</guid>
         
         
         <category>starts</category>
@@ -62,8 +62,8 @@
 
 </description>
         <pubDate>Sun, 13 Mar 2016 17:46:41 -0300</pubDate>
-        <link>http://localhost:4000/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll/</guid>
+        <link>http://agenciamonk.github.io/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://agenciamonk.github.io/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

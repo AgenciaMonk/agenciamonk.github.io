@@ -267,56 +267,175 @@
 
     </div>
     <div class="site-conteudo flex basis12">
-      
+      <div class="container column height-full" style="">
+  <div class="menu-playground">
+    <div class="container center-center height-full" style="min-height: 100%;">
+
+      <div class="input-form text-left flex">
+        <h2>Container</h2>
+        <select onchange="wow(this.value)">
+          <option value="tl">top-left</option>
+          <option value="tc">top-center</option>
+          <option value="tr">top-right</option>
+          <option value="cl">center-left</option>
+          <option value="cc" selected>center-center</option>
+          <option value="cr">center-right</option>
+          <option value="bl">bottom-left</option>
+          <option value="bc">bottom-center</option>
+          <option value="br">bottom-right</option>
+        </select>
+      </div>
+
+      <div class="input-form text-left flex">
+        <h2>Item</h2>
+        <select onchange="basis(this.value)">
+          <option value="bf">flex</option>
+          <option value="b1">basis1</option>
+          <option value="b2">basis2</option>
+          <option value="b3" selected>basis3</option>
+          <option value="b4">basis4</option>
+          <option value="b5">basis5</option>
+          <option value="b6">basis6</option>
+          <option value="b7">basis7</option>
+          <option value="b8">basis8</option>
+          <option value="b9">basis9</option>
+          <option value="b10">basis10</option>
+          <option value="b11">basis11</option>
+          <option value="b12">basis12</option>
+        </select>
+      </div>
+
+
+      <div class="input-form text-left flex">
+        <h2>Texto do item</h2>
+        <select onchange="textalign(this.value)">
+          <option value="textalign1">text-left</option>
+          <option value="textalign2" selected>text-center</option>
+          <option value="textalign3">text-right</option>
+        </select>
+      </div>
 
 
 
-<article class="content post">
-    <h1 class="post-title">Welcome to Jekyll!</h1>
-    <div class="post-date">
-        <time>13 Mar 2016</time>
-        <span class="reading-time" title="Estimated read time"> - 1 minute to read</span>
+    </div>
+  </div>
+  <div class="play-playground height-full">
+
+
+    <div class="item height-full" >
+      <div id="flexAlign" class="container center-center height-full" style="min-height: 100%;">
+        <div id="basisAlign" class="item-playground basis3">
+          <div class="text-center" id="textAlign">
+            <img src="/img/logo.svg" width="200" alt="">
+          </div>
+        </div>
+      </div>
     </div>
 
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+  </div>
+</div>
+  <script type="text/javascript">
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+// basis
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+function basis(value) {
+switch (value) {
+    case "bf":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground flex");
+        break;
+    case "b":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis");
+        break;
+    case "b1":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis1");
+        break;
+    case "b2":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis2");
+        break;
+    case "b3":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis3");
+        break;
+    case "b4":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis4");
+        break;
+    case "b5":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis5");
+        break;
+    case "b6":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis6");
+        break;
+    case "b7":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis7");
+        break;
+    case "b8":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis8");
+        break;
+    case "b9":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis9");
+        break;
+    case "b10":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis10");
+        break;
+    case "b11":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis11");
+        break;
+    case "b12":
+        document.getElementById("basisAlign").setAttribute("class", "item-playground basis12");
+        break;
+}
+}
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+// basis
 
 
+  function wow(value) {
+  switch (value) {
+      case "tl":
+          document.getElementById("flexAlign").setAttribute("class", "container top-left");
+          break;
+      case "tc":
+          document.getElementById("flexAlign").setAttribute("class", "container top-center");
+          break;
+      case "tr":
+          document.getElementById("flexAlign").setAttribute("class", "container top-right");
+          break;
+      case "cl":
+          document.getElementById("flexAlign").setAttribute("class", "container center-left");
+          break;
+      case "cc":
+          document.getElementById("flexAlign").setAttribute("class", "container center-center");
+          break;
+      case "cr":
+          document.getElementById("flexAlign").setAttribute("class", "container center-right");
+          break;
+      case "bl":
+          document.getElementById("flexAlign").setAttribute("class", "container bottom-left");
+          break;
+      case "bc":
+          document.getElementById("flexAlign").setAttribute("class", "container bottom-center");
+          break;
+      case "br":
+          document.getElementById("flexAlign").setAttribute("class", "container bottom-right");
+          break;
+  }
+}
 
-    <!-- <section class="comments">
-    <h3>Comentários</h3>
-    <div id="disqus_thread"></div>
-</section>
-<div id="disqus_thread"></div>
-<script>
+function textalign(value) {
+switch (value) {
+    case "textalign1":
+        document.getElementById("textAlign").setAttribute("class", "text-left");
+        break;
+    case "textalign2":
+        document.getElementById("textAlign").setAttribute("class", "text-center");
+        break;
+    case "textalign3":
+        document.getElementById("textAlign").setAttribute("class", "text-right");
+        break;
+}
+}
 
-    var disqus_config = function () {
-        this.page.url = 'http://agenciamonk.github.io/welcome-to-jekyll/'; 
-        this.page.identifier = '/welcome-to-jekyll/'; 
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    
-    s.src = '//minimalsblog.disqus.com/embed.js';
-    
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
- -->
-</article>
+  </script>
 
 
     </div>

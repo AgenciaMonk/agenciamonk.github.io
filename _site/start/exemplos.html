@@ -171,7 +171,7 @@
                    
                   <li><a href=" /start/download ">Download</a></li>
                     
-                    <li><a href=" /start/exemplos ">Exemplos</a></li>
+                    <li class="link-h"><a href=" /start/exemplos " class="slec">Exemplos</a></li>
                     
                 </ul>
               </div>
@@ -232,7 +232,7 @@
 
 
       
-      <li><a href=" /start/exemplos ">Exemplos</a></li>
+      <li class="link-h"><a href=" /start/exemplos " class="slec">Exemplos</a></li>
       
     </ul>
   </div>
@@ -267,56 +267,98 @@
 
     </div>
     <div class="site-conteudo flex basis12">
-      
+      <style>
+p {
+  font-size: 10px;
+}
+  .site {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid #f6f6f6;
+    font-size: 16px;
+    overflow: hidden;
+  }
 
+  .header1 {
+    height: 500px;
+    background: #222;
+    color: #fff
+  }
 
+  .not1 {
+    min-height: 200px;
+    background: #ccc;
+    font-size: 12px;
+  }
 
-<article class="content post">
-    <h1 class="post-title">Welcome to Jekyll!</h1>
-    <div class="post-date">
-        <time>13 Mar 2016</time>
-        <span class="reading-time" title="Estimated read time"> - 1 minute to read</span>
+  .ma {
+    margin: 10px;
+  }
+  .test1 {
+    font-size: 10px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .test1 h1{
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  .img-test1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #222;
+    margin: 0 auto
+  }
+</style>
+
+<div class="site">
+  <div class="container center-center header1 text-center">
+    <div class="basis3">
+      <h1>Lorem Ipsum</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+
+  <div class="container center-center not1 text-center">
+    <div class="ma basis6">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+    </div>
+  </div>
+
+  <div class="container wrap-tablet space-around-stretch text-center">
+    <div class="test1 basis3">
+      <div class="img-test1">
+      </div>
+      <div class="text-test1">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
     </div>
 
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <div class="test1 basis3">
+      <div class="img-test1">
+      </div>
+      <div class="text-test1">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+    <div class="test1 basis3">
+      <div class="img-test1">
+      </div>
+      <div class="text-test1">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+  </div>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-
-    <!-- <section class="comments">
-    <h3>Comentários</h3>
-    <div id="disqus_thread"></div>
-</section>
-<div id="disqus_thread"></div>
-<script>
-
-    var disqus_config = function () {
-        this.page.url = 'http://agenciamonk.github.io/welcome-to-jekyll/'; 
-        this.page.identifier = '/welcome-to-jekyll/'; 
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    
-    s.src = '//minimalsblog.disqus.com/embed.js';
-    
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
- -->
-</article>
+</div>
 
 
     </div>
