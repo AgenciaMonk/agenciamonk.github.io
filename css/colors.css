@@ -1,4 +1,3 @@
-/*BG*/
 .bg-default {
   background: #222222!important;
 }
@@ -83,8 +82,6 @@
 .bg-asbestos {
   background: #7f8c8d!important;
 }
-/*BG*/
-/*COLOR*/
 .color-default {
   color: #222222!important;
 }
@@ -169,5 +166,3 @@
 .color-asbestos {
   color: #7f8c8d!important;
 }
-
-/*COLOR*/
