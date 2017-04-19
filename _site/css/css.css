@@ -312,6 +312,10 @@ select:hover {
 .margin1 {
   margin: 10px
 }
+.color-teste {
+  height: 100px;
+  margin: 10px;
+}
 /*.cg {
   display: none!important
 }
