@@ -7,7 +7,17 @@
   border: none;
   cursor: pointer;
   transition: .3s;
-  outline: none
+  outline: none;
+  font-size: 12px;
+}
+.btn-small {
+  height: 25px;
+  font-size: 10px
+}
+.btn-big {
+  height: 70px;
+  font-size: 22px;
+  padding: 0 30px 0 30px;
 }
 .btn:hover {
   /*filter: grayscale(50%);*/
@@ -27,4 +37,13 @@
 }
 .btn-radius {
   border-radius: 4px;
+}
+.btn-full {
+  width: 100%;
+  padding: 0;
+  display: block;
+}
+.btn-size {
+  width: 300px;
+  max-width: 100%;
 }

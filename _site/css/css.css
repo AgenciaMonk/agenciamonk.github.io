@@ -325,7 +325,9 @@ select:hover {
 .buttondoc {
   margin: 10px;
 }
-
+.fontdoc h3 small {
+  opacity: .5
+}
 
 
 
