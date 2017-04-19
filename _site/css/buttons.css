@@ -1,0 +1,30 @@
+.btn {
+  padding: 0 20px 0 20px;
+  height: 40px;
+  margin: 5px 0 5px 0;
+  background: #222222;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  outline: none
+}
+.btn:hover {
+  /*filter: grayscale(50%);*/
+  filter: brightness(50%);
+}
+.btn-primary {
+  background: #3498db
+}
+.btn-sucess {
+  background: #3FC380
+}
+.btn-cancel {
+  background: #FF4455
+}
+.btn-rounded {
+  border-radius: 20px;
+}
+.btn-radius {
+  border-radius: 4px;
+}

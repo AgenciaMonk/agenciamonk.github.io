@@ -322,6 +322,25 @@ select:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.buttondoc {
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes entra {
   from {opacity: 0}
     to {opacity: 1}
