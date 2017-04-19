@@ -1,11 +1,7 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(../fonts/roboto-slab/RobotoSlab-Bold.ttf);
-}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: myFirstFont;
   /*color: rgba(0, 0, 0, 0.5);*/
 }
 body,
@@ -111,15 +107,14 @@ select:hover {
 .container-site {
   height: calc(100% - 70px)
 }
-.link-doc-title h1 {
-  font-size: 22px;
-  padding-top: 20px;
+.link-doc-title h1{
   color: rgba(0, 0, 0, 0.7);
+  font-size: 22px;
+  padding-bottom: 20px;
 }
 .link-doc-subtitle h2 {
   font-size: 16px;
-  padding-bottom: 10px;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 .link-doc ul {
   list-style: none;
@@ -316,12 +311,17 @@ select:hover {
   height: 100px;
   margin: 10px;
 }
-/*.cg {
-  display: none!important
+.fontdoc {
+  margin: 10px;
+  padding-bottom: 50px;
 }
-.color:hover .cg {
-  display: flex!important;
-}*/
+.fontdoc ul{
+  margin: 20px;
+}
+.marginfont li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 @keyframes entra {
   from {opacity: 0}
     to {opacity: 1}

@@ -40,6 +40,12 @@
       {% else %}
       <li><a href="{{ " /doc/basic/colors " | prepend: site.baseurl }}">Colors</a></li>
       {% endif %}
+
+      {% if page.url == "/doc/basic/fonts" %}
+      <li class="link-h"><a href="{{ " /doc/basic/fonts " | prepend: site.baseurl }}" class="slec">Fonts</a></li>
+      {% else %}
+      <li><a href="{{ " /doc/basic/fonts " | prepend: site.baseurl }}">Fonts</a></li>
+      {% endif %}
     </ul>
   </div>
 

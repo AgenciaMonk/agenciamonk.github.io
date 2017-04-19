@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'RobotoSlab-light';
+  src: url(font/roboto-slab/RobotoSlab-Light.ttf);
+}
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url(font/roboto-slab/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: 'RobotoSlab-bold';
+  src: url(font/roboto-slab/RobotoSlab-Bold.ttf);
+}
+.fontRobotoSlab-light {
+  font-family: 'RobotoSlab-light', serif;
+}
+.fontRobotoSlab {
+  font-family: 'RobotoSlab', serif;
+}
+.fontRobotoSlab-bold {
+  font-family: 'RobotoSlab-bold', serif;
+}
+@font-face {
+  font-family: 'Roboto-light';
+  src: url('font/roboto/Roboto-Light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('font/roboto/Roboto-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url('font/roboto/Roboto-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+.fontRoboto-light {
+  font-family: 'Roboto-light', sans-serif;
+}
+.fontRoboto {
+  font-family: 'Roboto', sans-serif;
+}
+.fontRoboto-bold {
+  font-family: 'Roboto-bold', sans-serif;
+}
+* {
+  font-family: 'Roboto-regular', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'RobotoSlab-bold', serif;
+}
+
+h1 {
+  font-size: 32px
+}
+h2 {
+  font-size: 22px
+}
+h3 {
+  font-size: 16px
+}
+h4 {
+  font-size: 14px
+}
+h5 {
+  font-size: 12px
+}
+h6 {
+  font-size: 10px
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
