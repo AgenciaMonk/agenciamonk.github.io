@@ -63,11 +63,14 @@
                   <li class="link-h"><a href="{{ " /start/download " | prepend: site.baseurl }}" class="slec">Download</a></li>
                   {% else %}
                   <li><a href="{{ " /start/download " | prepend: site.baseurl }}">Download</a></li>
-                  {% endif %}  {% if page.url == "/start/exemplos" %}
+                  {% endif %}
+
+
+                  <!-- {% if page.url == "/start/exemplos" %}
                     <li class="link-h"><a href="{{ " /start/exemplos " | prepend: site.baseurl }}" class="slec">Exemplos</a></li>
                     {% else %}
                     <li><a href="{{ " /start/exemplos " | prepend: site.baseurl }}">Exemplos</a></li>
-                    {% endif %}
+                    {% endif %} -->
                 </ul>
               </div>
 
@@ -80,6 +83,11 @@
                   <li class="link-h"><a href="{{ " /doc/basic/colors " | prepend: site.baseurl }}" class="slec">Colors</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basic/colors " | prepend: site.baseurl }}">Colors</a></li>
+                  {% endif %}
+                  {% if page.url == "/doc/basic/fonts" %}
+                  <li class="link-h"><a href="{{ " /doc/basic/fonts " | prepend: site.baseurl }}" class="slec">Fonts</a></li>
+                  {% else %}
+                  <li><a href="{{ " /doc/basic/fonts " | prepend: site.baseurl }}">Fonts</a></li>
                   {% endif %}
                 </ul>
               </div>

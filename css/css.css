@@ -337,3 +337,10 @@ select:hover {
     flex-wrap: wrap!important;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .color,
+  .collor {
+    flex-grow: 1!important
+  }
+}
