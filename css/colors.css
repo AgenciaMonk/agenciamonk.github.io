@@ -168,25 +168,23 @@
 }
 
 
-
-
 .border {
   border-width: 1px!important;
   border-style: solid!important;
 }
-.borde2 {
+.border2 {
   border-width: 2px!important;
   border-style: solid!important;
 }
-.borde3 {
+.border3 {
   border-width: 3px!important;
   border-style: solid!important;
 }
-.borde4 {
+.border4 {
   border-width: 4px!important;
   border-style: solid!important;
 }
-.borde5 {
+.border5 {
   border-width: 5px!important;
   border-style: solid!important;
 }
