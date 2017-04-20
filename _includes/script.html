@@ -16,6 +16,14 @@
 {% endif %}
 
 
+{% if page.url == "/doc/basic/buttons-play" %}
+<script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/play-menu.js' | prepend: site.baseurl }}"></script>
+
+{% else %}
+{% endif %}
+
+
 <script type="text/javascript">
   var hamburgerAbre = document.getElementById('hamburg');
   var hamburgerFecha = document.getElementById('fecha-menu-hamb');

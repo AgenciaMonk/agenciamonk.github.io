@@ -332,8 +332,18 @@ select:hover {
   background: rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
-
-
+.disabled {
+  opacity: .2
+}
+.enabled {
+  opacity: 1
+}
+.normal {
+  padding: 0 20px 0 20px;
+  height: 40px;
+  margin: 5px 0 5px 0;
+  font-size: 12px;
+}
 
 
 
