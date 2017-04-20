@@ -47,6 +47,18 @@
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/colors.css">
   <link rel="stylesheet" href="/css/buttons.css">
+
+
+
+
+  
+  <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+  
+
+
+
 </head>
 
 <body>
@@ -337,12 +349,12 @@ btn-cancel
 btn-rounded
 btn-radius
 
-btn-full -->
+btn-full
+
+<span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-times&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span>
 
 
-Se preferir ele menor(height:25px font-size:10px), adicione a classa BTN-SMALL, caso prefira ele maior(height:60px;font-size:22px;) adicione BTN-BIG
-você pode
-
+-->
 
   <div class="link-doc-title">
     <h1>Buttons</h1>
@@ -366,6 +378,9 @@ você pode
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-cancel">Cancel</button>
       </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-cancel" disabled>Disabled</button>
+      </div>
     </div>
 
 <div class="codigo-p">
@@ -377,14 +392,99 @@ você pode
 
 <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel&quot;</span><span style="color: #a6e22e"> disabled</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
   </div>
 </div>
+<p><small><strong><span class="classe"><strong>btn</strong></span> class is required on all buttons.</strong></small></p>
+
+  </div>
+
+
+
+  <div class="fontdoc">
+    <h3>Button with icon<small></small></h3><br />
+    <p><small>We use <a class="git" href="http://fontawesome.io/" target="_blank">Font-awesome</a>.<br />To use the icons just follow the pattern.</small></p>
+    <div class="container wrap">
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-primary"><i class="fa fa-bars" aria-hidden="true"></i></button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-sucess"><i class="fa fa-check" aria-hidden="true"></i> Accept</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-cancel"><i class="fa fa-times" aria-hidden="true"></i> Decline</button>
+      </div>
+    </div>
+
+
+
+
+
+  <div class="codigo-p">
+  <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+  <pre style="margin: 0; line-height: 125%">
+  <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-location-arrow&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span>
+
+  <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-primary&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-bars&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span>
+
+  <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-check&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span>
+
+  <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-times&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+  </div>
+  </div>
+  <p><small><strong><span class="classe"><strong>btn</strong></span> class is required on all buttons.</strong></small></p>
+
+  </div>
+
+
+
+
+
+
+
+  <div class="fontdoc">
+    <h3>Simple button with border <small>fixed class: btn-border</small></h3><br />
+    <p><small>First add the class <span class="classe"><strong>btn-border</strong></span>, for the default settings, it has a default height of 40px height and font-size of 12px.</small></p>
+    <div class="container wrap">
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border">Enviar</button>
+      </div>
+
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-border-primary">Enviar</button>
+      </div>
+      <div class="buttondoc">
+        <button class="btn-border btn-border-sucess"><i class="fa fa-check" aria-hidden="true"></i> Accept</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-border-danger"><i class="fa fa-times" aria-hidden="true"></i> Cancel</button>
+      </div>
+    </div>
+
+<div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-primary&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-sucess"&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-check&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span>  Accept</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-sucess"&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-times&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span>  Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+</div>
+</div>
+<p><small><strong><span class="classe"><strong>btn-border</strong></span> class is required on all buttons.</strong></small></p>
 
   </div>
 
   <div class="fontdoc">
     <h3>Button small <small>add class: btn-small</small></h3>
+    <p><small>If you prefer it smaller (height: 25px font-size: 10px), add the <span class="classe"><strong>btn-small</strong></span> class.</small></p>
     <div class="container wrap">
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-small">Enviar</button>
@@ -398,6 +498,12 @@ você pode
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-small btn-cancel">Cancel</button>
       </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-small bg-midnightblue"><i class="fa fa-edit" aria-hidden="true"></i> Edit</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-small btn-border-danger">Cancel</button>
+      </div>
     </div>
 
 <div class="codigo-p">
@@ -409,16 +515,19 @@ você pode
 
 <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess btn-small&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-small&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-small&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-midnightblue btn-small&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-edit&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span> Edit</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-danger btn-small&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
   </div>
 </div>
 
   </div>
 
-
-
   <div class="fontdoc">
     <h3>Button big <small>add class: btn-big</small></h3>
+    <p><small>If you prefer it bigger (height: 60px; font-size: 22px;) add <span class="classe"><strong>btn-big.</strong></span></small></p>
     <div class="container wrap">
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-big">Enviar</button>
@@ -432,6 +541,12 @@ você pode
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-big btn-cancel">Cancel</button>
       </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-big btn-border-danger" >Cancel</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-big bg-midnightblue btn-radius"><i class="fa fa-edit" aria-hidden="true"></i> Edit</button>
+      </div>
     </div>
 
 <div class="codigo-p">
@@ -443,28 +558,79 @@ você pode
 
 <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess btn-big&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-big&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-big&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-big btn-border-danger&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-midnightblue btn-radius btn-big&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-edit&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span> Edit</span><span style="color: #f92672">&lt;/button&gt;</span>
   </div>
 </div>
-
   </div>
 
+  <div class="fontdoc">
+    <h3>Button size pre-defined <small>add class: btn-size</small></h3>
+    <p><small>The size is 300px with max-size 100%</small></p>
+    <div class="container wrap">
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-sucess btn-size">Yes</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn btn-cancel btn-size">No</button>
+      </div>
+      </div>
+      <div class="container wrap">
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-border-sucess btn-size">Yes</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-border-danger btn-size">No</button>
+      </div>
+    </div>
+    <div class="container wrap">
+    <div class="buttondoc">
+      <button type="button" name="button" class="btn-big btn bg-sucess btn-size"><i class="fa fa-2x fa-check" aria-hidden="true"></i></button>
+    </div>
+    <div class="buttondoc">
+      <button type="button" name="button" class="btn-big btn bg-danger btn-size"><i class="fa fa-2x fa-times" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+<div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess btn-size&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Yes</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-size&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">No</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-sucess btn-size&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Yes</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-danger btn-size&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">No</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-big btn-border btn-border-sucess btn-size&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-check&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-big btn-border btn-border-cancel btn-size&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-times&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+</div>
+</div>
+  </div>
 
 
   <div class="fontdoc">
     <h3>Simple button radius(4px) <small>add class: btn-radius</small></h3>
     <div class="container wrap">
       <div class="buttondoc">
-        <button type="button" name="button" class="btn btn-radius">Enviar</button>
+        <button type="button" name="button" class="btn btn-small btn-radius">Enviar</button>
       </div>
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-primary btn-radius">Enviar</button>
       </div>
       <div class="buttondoc">
-        <button type="button" name="button" class="btn btn-sucess btn-radius">Complete</button>
+        <button type="button" name="button" class="btn btn-big btn-sucess btn-radius">Complete</button>
       </div>
       <div class="buttondoc">
-        <button type="button" name="button" class="btn btn-cancel btn-radius">Cancel</button>
+        <button type="button" name="button" class="btn btn-cancel btn-size btn-radius">Cancel</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-border-cancel btn-radius">Cancel</button>
       </div>
     </div>
 
@@ -477,29 +643,37 @@ você pode
 
 <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess btn-rounded&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-rounded&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-rounded&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-cancel btn-radius&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
   </div>
 </div>
-
   </div>
-
-
 
 
   <div class="fontdoc">
     <h3>Simple button rounded <small>add class: btn-rounded</small></h3>
     <div class="container wrap">
       <div class="buttondoc">
-        <button type="button" name="button" class="btn btn-rounded">Enviar</button>
+        <button type="button" name="button" class="btn btn-small btn-rounded">Enviar</button>
       </div>
       <div class="buttondoc">
         <button type="button" name="button" class="btn btn-primary btn-rounded">Enviar</button>
       </div>
       <div class="buttondoc">
-        <button type="button" name="button" class="btn btn-sucess btn-rounded">Complete</button>
+        <button type="button" name="button" class="btn btn-big btn-sucess btn-rounded">Complete</button>
       </div>
       <div class="buttondoc">
-        <button type="button" name="button" class="btn btn-cancel btn-rounded">Cancel</button>
+        <button type="button" name="button" class="btn btn-size btn-cancel btn-rounded">Cancel</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn-border btn-border-cancel btn-rounded">Cancel</button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn bg-midnightblue btn-rounded"><i class="fa fa-2x fa-reply" aria-hidden="true"></i></button>
+      </div>
+      <div class="buttondoc">
+        <button type="button" name="button" class="btn bg-pomegranate btn-rounded"><i class="fa fa-2x fa-trash" aria-hidden="true"></i></button>
       </div>
     </div>
 
@@ -512,14 +686,17 @@ você pode
 
 <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-sucess btn-radius&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-radius&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-radius&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-cancel btn-radius&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-midnightblue btn-rounded&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-2x fa-times&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-pomegranate btn-rounded&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff"><span style="color: #f92672">&lt;i</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;fa fa-2x fa-trash&quot;</span> <span style="color: #a6e22e">aria-hidden=</span><span style="color: #e6db74">&quot;true&quot;</span><span style="color: #f92672">&gt;&lt;/i&gt;</span></span><span style="color: #f92672">&lt;/button&gt;</span></pre>
   </div>
 </div>
 
   </div>
-
-
-
 
 
   <div class="fontdoc">
@@ -540,6 +717,9 @@ você pode
       <div class="buttondoc width-full">
           <button type="button" name="button" class="btn btn-full btn-big btn-rounded btn-cancel">Cancel</button>
       </div>
+      <div class="buttondoc width-full">
+          <button type="button" name="button" class="btn-border btn-full btn-rounded btn-border-cancel">Cancel</button>
+      </div>
     </div>
 
 <div class="codigo-p">
@@ -553,7 +733,9 @@ você pode
 
 <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-small btn-full&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-rounded btn-big btn-full&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-cancel btn-rounded btn-big btn-full&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-rounded btn-border-cancel btn-full&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
   </div>
 </div>
 
@@ -626,18 +808,16 @@ você pode
       </div>
 
     </div>
-    <div class="codigo-p">
-    <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
-    <pre style="margin: 0; line-height: 125%">
-    <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-turquoise&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-turquoise&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-    <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-greensea&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
-    <span style="color:#fff">...</span>
-    </div>
-    </div>
-    </div>
-
-
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-greensea&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<span style="color:#fff">...</span>
+</div>
+</div>
+</div>
 
     <div class="fontdoc">
       <h3>Style button with colors class</h3>
@@ -704,22 +884,96 @@ você pode
           <button type="button" name="button" class="btn color-asbestos">Enviar</button>
         </div>
       </div>
-      <div class="codigo-p">
-      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
-      <pre style="margin: 0; line-height: 125%">
-      <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-turquoise&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn color-turquoise&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-      <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-greensea&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
-      <span style="color:#fff">...</span>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn color-greensea&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<span style="color:#fff">...</span>
+</div>
+</div>
       </div>
-      </div>
-      </div>
 
+      <div class="fontdoc">
+        <h3>Style button with border class</h3>
+        <small>You can style the buttons with all colors of our palette, check out <a href=" /doc/basic/colors " class="git">Colors</a></small>
+        <div class="container wrap">
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-turquoise">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-greensea">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-emerald">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-nephritis">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-peterriver">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-belizehole">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-amethyst">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-wisteria">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-wetasphalt">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-midnightblue">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-sunflower">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-orange">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-carrot">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-pumpkin">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-alizarin">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-pomegranate">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-clouds">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-silver">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-concrete">Enviar</button>
+          </div>
+          <div class="buttondoc">
+            <button type="button" name="button" class="btn-border btn-border-asbestos">Enviar</button>
+          </div>
+        </div>
+<div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-turquoise&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-greensea&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<span style="color:#fff">...</span>
+</div>
+</div>
+        </div>
     <div class="fontdoc">
       <h3>Our together...</h3>
-      <small>You can style the buttons with all colors and background-colors of our palette.</small>
+      <small>You can style the buttons with all colors and background-colors of our palette.</small><br />
+      <small><span class="classe">btn-border-  </span> have a color defined.</small>
       <div class="container wrap">
         <div class="buttondoc">
           <button type="button" name="button" class="btn bg-alizarin color-wetasphalt">Enviar</button>
@@ -727,26 +981,21 @@ você pode
         <div class="buttondoc">
           <button type="button" name="button" class="btn bg-wetasphalt color-nephritis">Enviar</button>
         </div>
+        <div class="buttondoc">
+          <button type="button" name="button" class="btn-border btn-border-belizehole">Enviar</button>
+        </div>
       </div>
-  <div class="codigo-p">
-  <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
-  <pre style="margin: 0; line-height: 125%">
-  <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-alizarin color-wetasphalt&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-alizarin color-wetasphalt&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
 
-  <span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-wetasphalt color-nephritis&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn bg-wetasphalt color-nephritis&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn-border btn-border-belizehole&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Enviar</span><span style="color: #f92672">&lt;/button&gt;</span>
+</div>
+</div>
   </div>
-  </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
 
 </div>
 

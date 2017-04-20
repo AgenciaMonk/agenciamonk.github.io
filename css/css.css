@@ -329,7 +329,7 @@ select:hover {
   opacity: .5
 }
 .classe {
-  background: #ccc;
+  background: rgba(0, 0, 0, 0.1);
   padding: 5px;
 }
 

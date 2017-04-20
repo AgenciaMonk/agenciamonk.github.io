@@ -166,3 +166,111 @@
 .color-asbestos {
   color: #7f8c8d!important;
 }
+
+
+
+
+.border {
+  border-width: 1px!important;
+  border-style: solid!important;
+}
+.borde2 {
+  border-width: 2px!important;
+  border-style: solid!important;
+}
+.borde3 {
+  border-width: 3px!important;
+  border-style: solid!important;
+}
+.borde4 {
+  border-width: 4px!important;
+  border-style: solid!important;
+}
+.borde5 {
+  border-width: 5px!important;
+  border-style: solid!important;
+}
+.border-default {
+  border-color: #222222!important;
+}
+.border-primary {
+  border-color: #3498db!important;
+}
+.border-danger {
+  border-color: #ff4455!important;
+}
+.border-sucess {
+  border-color: #3FC380!important;
+}
+.border-attention {
+  border-color: #F4D03F!important;
+}
+.border-black {
+  border-color: #000000!important;
+}
+.border-grey {
+  border-color: #777777!important;
+}
+.border-white {
+  border-color: #FFFFFF!important;
+}
+.border-turquoise {
+  border-color: #1abc9c!important;
+}
+.border-greensea {
+  border-color: #16a085!important;
+}
+.border-emerald {
+  border-color: #2ecc71!important;
+}
+.border-nephritis {
+  border-color: #27ae60!important;
+}
+.border-peterriver {
+  border-color: #3498db!important;
+}
+.border-belizehole {
+  border-color: #2980b9!important;
+}
+.border-amethyst {
+  border-color: #9b59b6!important;
+}
+.border-wisteria {
+  border-color: #8e44ad!important;
+}
+.border-wetasphalt {
+  border-color: #34495e!important;
+}
+.border-midnightblue {
+  border-color: #2c3e50!important;
+}
+.border-sunflower {
+  border-color: #f1c40f!important;
+}
+.border-orange {
+  border-color: #f39c12!important;
+}
+.border-carrot {
+  border-color: #e67e22!important;
+}
+.border-pumpkin {
+  border-color: #d35400!important;
+}
+.border-alizarin {
+  border-color: #e74c3c!important;
+}
+.border-pomegranate {
+  border-color: #c0392b!important;
+}
+.border-clouds {
+  border-color: #ecf0f1!important;
+}
+.border-silver {
+  border-color: #bdc3c7!important;
+}
+.border-concrete {
+  border-color: #95a5a6!important;
+}
+.border-asbestos {
+  border-color: #7f8c8d!important;
+}
