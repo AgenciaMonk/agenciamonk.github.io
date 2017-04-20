@@ -328,7 +328,10 @@ select:hover {
 .fontdoc h3 small {
   opacity: .5
 }
-
+.classe {
+  background: #ccc;
+  padding: 5px;
+}
 
 
 
