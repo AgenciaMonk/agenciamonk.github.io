@@ -327,6 +327,9 @@ select:hover {
 .buttondoc {
   margin: 10px;
 }
+.fontdoc h2 {
+  color: rgba(0, 0, 0, 0.5);
+}
 .fontdoc h3 small {
   opacity: .5
 }
@@ -375,6 +378,12 @@ select:hover {
 }
 .testes h3 {
   padding-bottom: 10px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.testes h2 {
+  padding-top: 20px;
+  font-size: 16px;
 }
 .teytey {
   height: 20px;
