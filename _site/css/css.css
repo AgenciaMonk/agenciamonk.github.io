@@ -205,12 +205,12 @@ select:hover {
   font-style: italic;
 }
 .item-commit {
-  color: #222222;
+  color: rgba(0, 0, 0, .7);
   text-transform: uppercase;
   font-weight: 900
 }
 .text-p {
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
 .text-p ul{
@@ -317,8 +317,8 @@ select:hover {
   margin: 10px;
   padding-bottom: 50px;
 }
-.fontdoc ul{
-  margin: 20px;
+.fontdoc form{
+  margin-bottom: 20px;
 }
 .marginfont li {
   margin-top: 10px;
@@ -328,9 +328,10 @@ select:hover {
   margin: 10px;
 }
 .fontdoc h2 {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
 }
-.fontdoc h3 small {
+.fontdoc h2 small {
   opacity: .5
 }
 .classe {
@@ -391,8 +392,13 @@ select:hover {
   margin: 5px;
   border-radius: 30px;
 }
+.border-r-none {
+  border-radius: none!important
+}
 
-
+.so-btn {
+  display: none
+}
 
 
 

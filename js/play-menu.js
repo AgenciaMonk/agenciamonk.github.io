@@ -2,14 +2,19 @@ $(document).ready(function(){
   $("#btn").click(function() {
           $("#aqui").addClass('btn');
           $("#aqui").removeClass('btn-border');
+          $("#sobtn").removeClass('so-btn');
+          $("#sobtn2").removeClass('so-btn');
+          $("#btn-b").addClass('so-btn');
+
   });
   $("#btnB").click(function() {
+          $("#sobtn").addClass('so-btn');
+          $("#sobtn2").addClass('so-btn');
+          $("#btn-b").removeClass('so-btn');
+
           $("#aqui").addClass('btn-border');
           $("#aqui").removeClass('btn');
   });
-
-
-
 
 
   $("#small").click(function() {
@@ -43,6 +48,24 @@ $(document).ready(function(){
           $("#aqui").removeClass('btn-size');
   });
 
+
+
+  $("#radius").click(function() {
+          $("#aqui").addClass('btn-radius');
+          $("#aqui").removeClass('btn-rounded');
+          $("#aqui").removeClass('border-r-none');
+  });
+
+  $("#rounded").click(function() {
+          $("#aqui").addClass('btn-rounded');
+          $("#aqui").removeClass('btn-radius');
+          $("#aqui").removeClass('border-r-none');
+  });
+  $("#dbb").click(function() {
+          $("#aqui").addClass('border-r-none');
+          $("#aqui").removeClass('btn-radius');
+          $("#aqui").removeClass('btn-rounded');
+  });
 
 
 
@@ -1759,6 +1782,872 @@ $(document).ready(function(){
     $("#aqui").removeClass('color-silver');
     $("#aqui").removeClass('color-clouds');
     $("#aqui").removeClass('color-concrete');
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  $("#btn-border-default").click(function() {
+    $("#aqui").addClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-primary").click(function() {
+    $("#aqui").addClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-danger").click(function() {
+    $("#aqui").addClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+
+  $("#btn-border-sucess").click(function() {
+    $("#aqui").addClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-attention").click(function() {
+    $("#aqui").addClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-black").click(function() {
+    $("#aqui").addClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-grey").click(function() {
+    $("#aqui").addClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-white").click(function() {
+    $("#aqui").addClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-turquoise").click(function() {
+    $("#aqui").addClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-greensea").click(function() {
+    $("#aqui").addClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-emerald").click(function() {
+    $("#aqui").addClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-nephritis").click(function() {
+    $("#aqui").addClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+
+  $("#btn-border-peterriver").click(function() {
+    $("#aqui").addClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+
+  $("#btn-border-belizehole").click(function() {
+    $("#aqui").addClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-amethyst").click(function() {
+    $("#aqui").addClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-wisteria").click(function() {
+    $("#aqui").addClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-wetasphalt").click(function() {
+    $("#aqui").addClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-midnightblue").click(function() {
+    $("#aqui").addClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-sunflower").click(function() {
+    $("#aqui").addClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-orange").click(function() {
+    $("#aqui").addClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-carrot").click(function() {
+    $("#aqui").addClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-pumpkin").click(function() {
+    $("#aqui").addClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-alizarin").click(function() {
+    $("#aqui").addClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-pomegranate").click(function() {
+    $("#aqui").addClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-clouds").click(function() {
+    $("#aqui").addClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-concrete").click(function() {
+    $("#aqui").addClass('btn-border-concrete');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-asbestos');
+  });
+
+  $("#btn-border-asbestos").click(function() {
+    $("#aqui").addClass('btn-border-asbestos');
+    $("#aqui").removeClass('btn-border-default');
+    $("#aqui").removeClass('btn-border-primary');
+    $("#aqui").removeClass('btn-border-danger');
+    $("#aqui").removeClass('btn-border-sucess');
+    $("#aqui").removeClass('btn-border-attention');
+    $("#aqui").removeClass('btn-border-black');
+    $("#aqui").removeClass('btn-border-white');
+    $("#aqui").removeClass('btn-border-grey');
+    $("#aqui").removeClass('btn-border-turquoise');
+    $("#aqui").removeClass('btn-border-greensea');
+    $("#aqui").removeClass('btn-border-emerald');
+    $("#aqui").removeClass('btn-border-nephritis');
+    $("#aqui").removeClass('btn-border-peterriver');
+    $("#aqui").removeClass('btn-border-belizehole');
+    $("#aqui").removeClass('btn-border-amethyst');
+    $("#aqui").removeClass('btn-border-wisteria');
+    $("#aqui").removeClass('btn-border-wetasphalt');
+    $("#aqui").removeClass('btn-border-midnightblue');
+    $("#aqui").removeClass('btn-border-sunflower');
+    $("#aqui").removeClass('btn-border-orange');
+    $("#aqui").removeClass('btn-border-carrot');
+    $("#aqui").removeClass('btn-border-pumpkin');
+    $("#aqui").removeClass('btn-border-alizarin');
+    $("#aqui").removeClass('btn-border-pomegranate');
+    $("#aqui").removeClass('btn-border-silver');
+    $("#aqui").removeClass('btn-border-clouds');
+    $("#aqui").removeClass('btn-border-concrete');
   });
 
 });
