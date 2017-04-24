@@ -8,10 +8,16 @@
       <h2>Get-started</h2>
     </div>
     <ul>
-      {% if page.url == "/start/sobre" %}
-      <li class="link-h"><a href="{{ " /start/sobre " | prepend: site.baseurl }}" class="slec">Sobre</a></li>
+      {% if page.url == "/" %}
+      <li class="link-h"><a href="{{ " / " | prepend: site.baseurl }}" class="slec">Get started</a></li>
       {% else %}
-      <li><a href="{{ " /start/sobre " | prepend: site.baseurl }}">Sobre</a></li>
+      <li><a href="{{ " / " | prepend: site.baseurl }}">Get started</a></li>
+      {% endif %}
+
+      {% if page.url == "/start/sobre" %}
+      <li class="link-h"><a href="{{ " /start/sobre " | prepend: site.baseurl }}" class="slec">About</a></li>
+      {% else %}
+      <li><a href="{{ " /start/sobre " | prepend: site.baseurl }}">About</a></li>
       {% endif %} {% if page.url == "/start/download" %}
       <li class="link-h"><a href="{{ " /start/download " | prepend: site.baseurl }}" class="slec">Download</a></li>
       {% else %}
