@@ -175,7 +175,8 @@ select:hover {
   font-size: 20gitpx
 }
 .git {
-  color: #ff4455
+  color: #222222;
+  font-weight: bold
 }
 .item {
   height: 100%;
@@ -238,7 +239,8 @@ select:hover {
   color: rgba(0, 0, 0, 1)!important
 }
 .slecp {
-  color: #ff4455!important
+  color: rgba(0, 0, 0, .7)!important;
+  font-weight: bold;
 }
 .play-playground {
   margin-top: 20px;
@@ -344,10 +346,42 @@ select:hover {
   margin: 5px 0 5px 0;
   font-size: 12px;
 }
+.item-intro {
+  margin: 10px;
+  height: 100px;
+}
+.item-intro h3 {
+  padding-top: 10px;
+}
 
+.item-intro img {
+  animation: imgg 5s infinite
+}
 
-
-
+@keyframes imgg {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.testes {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.testes h3 {
+  padding-bottom: 10px;
+}
+.teytey {
+  height: 20px;
+  background: #222222;
+  margin: 5px;
+  border-radius: 30px;
+}
 
 
 
