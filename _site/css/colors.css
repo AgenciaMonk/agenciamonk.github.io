@@ -7,7 +7,7 @@
 .bg-danger {
   background: #ff4455!important;
 }
-.bg-sucess {
+.bg-success {
   background: #3FC380!important;
 }
 .bg-attention {
@@ -91,7 +91,7 @@
 .color-danger {
   color: #ff4455!important;
 }
-.color-sucess {
+.color-success {
   color: #3FC380!important;
 }
 .color-attention {
@@ -197,7 +197,7 @@
 .border-danger {
   border-color: #ff4455!important;
 }
-.border-sucess {
+.border-success {
   border-color: #3FC380!important;
 }
 .border-attention {

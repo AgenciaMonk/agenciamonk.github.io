@@ -41,10 +41,10 @@ button:disabled {
 .btn-primary {
   background: #3498db
 }
-.btn-sucess {
+.btn-success {
   background: #3FC380
 }
-.btn-cancel {
+.btn-danger {
   background: #FF4455
 }
 .btn-rounded {
@@ -86,19 +86,11 @@ button:disabled {
   background: #ff4455!important;
   color: #ffffff!important;
 }
-.btn-border-cancel {
-  border-color: #ff4455!important;
-  color: #ff4455!important;
-}
-.btn-border-cancel:hover {
-  background: #ff4455!important;
-  color: #ffffff!important;
-}
-.btn-border-sucess {
+.btn-border-success {
   border-color: #3FC380!important;
   color: #3FC380!important;
 }
-.btn-border-sucess:hover {
+.btn-border-success:hover {
   background: #3FC380!important;
   color: #ffffff!important;
 }
