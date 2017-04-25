@@ -48,8 +48,10 @@ select:hover {
   background: #222222;
   color: #fff!important;
   margin: 10px;
-  height: 100px;
+  height: 30px;
+  border-radius: 20px;
   overflow: hidden;
+  font-size: 10px;
 }
 .tamanho {
   width: 1440px;
@@ -66,7 +68,7 @@ select:hover {
 }
 .container-box2 {
   background: #ccc!important;
-    min-height: 300px;
+    min-height: 150px;
 }
 .cont {
   padding-top: 20px;
@@ -211,7 +213,7 @@ select:hover {
 }
 .text-p {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 .text-p ul{
   text-transform: uppercase;
@@ -314,8 +316,12 @@ select:hover {
   margin: 10px;
 }
 .fontdoc {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-bottom: 50px;
+}
+.fontdoc p {
+  padding-bottom: 10px;
 }
 .fontdoc form{
   margin-bottom: 20px;
@@ -399,7 +405,10 @@ select:hover {
 .so-btn {
   display: none
 }
-
+.input ul {
+  list-style: none;
+  font-size: 14px
+}
 
 
 

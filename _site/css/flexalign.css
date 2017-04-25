@@ -36,6 +36,10 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
+.wrap-reverse {
+      -ms-flex-wrap: wrap-reverse;
+          flex-wrap: wrap-reverse;
+}
 .space-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;

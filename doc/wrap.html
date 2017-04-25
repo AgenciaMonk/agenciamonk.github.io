@@ -3,65 +3,62 @@ layout: default
 permalink: /doc/wrap
 ---
 
-<div class="margin intro">
+<div class="link-doc-title">
   <h1>WRAP/NOWRAP</h1>
 </div>
 
 
 
-
-<div id="w1" class="cont margin">
-  <div class="intro">
-    WRAP<br />
-    <small><span>WRAP</span> significa que os itens vão quebrar quando não tiverem mais espaço. Para o <span>WRAP</span> funcionar é obrigatório os itens terem a classe <span>BASIS</span>(BASIS1 A BASIS12).</small>
-  </div>
-  <div class="container wrap container-box">
-    <div class="teste flex basis3">
-      <div class="container center-center height-full">
-        <div class="">
-          1
+<div class="container column">
+  <div class="fontdoc">
+    <h2>Wrap</h2>
+    <p> <small>Flex items will wrap onto multiple lines, from top to bottom.</small>
+    </p>
+    <div class="container wrap container-box">
+      <div class="teste flex basis3">
+        <div class="container center-center height-full">
+          <div class="">
+            1
+          </div>
+        </div>
+      </div>
+      <div class="teste flex basis3">
+        <div class="container center-center height-full">
+          <div class="">
+            2
+          </div>
+        </div>
+      </div>
+      <div class="teste flex basis3">
+        <div class="container center-center height-full">
+          <div class="">
+            3
+          </div>
         </div>
       </div>
     </div>
-    <div class="teste flex basis3">
-      <div class="container center-center height-full">
-        <div class="">
-          2
-        </div>
-      </div>
-    </div>
-    <div class="teste flex basis3">
-      <div class="container center-center height-full">
-        <div class="">
-          3
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="codigo-p">
-    <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
-         <span style="color:#fff">...</span>
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
-         <span style="color:#fff">...</span>
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
-         <span style="color:#fff">...</span>
-    <span style="color: #f92672">&lt;/div&gt;</span>
+    <div class="codigo-p">
+      <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap&quot;</span><span style="color: #f92672">&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+   <span style="color:#fff">...</span>
   <span style="color: #f92672">&lt;/div&gt;</span>
-</pre>
-</div>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+   <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+   <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span></pre>
+      </div>
+    </div>
   </div>
 </div>
 
 
-<div id="w2" class="cont margin">
 
-  <div class="intro">
-    NOWRAP<br />
-    <small><span>NOWRAP</span> já é default, ela impede que os itens quebrem quando não tiver espaço.</small>
-  </div>
+<div class="fontdoc">
+  <h2>Nowrap(default)</h2>
+  <p><small>All flex items will be on one line.</small></p>
   <div class="container nowrap container-box">
     <div class="teste flex">
       <div class="container center-center height-full">
@@ -88,17 +85,63 @@ permalink: /doc/wrap
   </div>
   <div class="codigo-p">
     <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container nowrap&quot;</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex&quot;</span><span style="color: #f92672">&gt;</span>
-         <span style="color:#fff">...</span>
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex&quot;</span><span style="color: #f92672">&gt;</span>
-         <span style="color:#fff">...</span>
-    <span style="color: #f92672">&lt;/div&gt;</span>
-    <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex&quot;</span><span style="color: #f92672">&gt;</span>
-         <span style="color:#fff">...</span>
-    <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color:#fff">...</span>
   <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
 </pre>
-</div>
+    </div>
   </div>
+</div>
+
+<div class="fontdoc">
+  <h2>Wrap-reverse</h2>
+  <p><small>Flex items will wrap onto multiple lines from bottom to top.</small></p>
+  <div class="container wrap-reverse container-box">
+    <div class="teste flex basis3">
+      <div class="container center-center height-full">
+        <div class="">
+          1
+        </div>
+      </div>
+    </div>
+    <div class="teste flex basis3">
+      <div class="container center-center height-full">
+        <div class="">
+          2
+        </div>
+      </div>
+    </div>
+    <div class="teste flex basis3">
+      <div class="container center-center height-full">
+        <div class="">
+          3
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="codigo-p">
+    <div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;container wrap-reverse&quot;</span><span style="color: #f92672">&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+  <span style="color: #f92672">&lt;div</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot; flex basis3&quot;</span><span style="color: #f92672">&gt;</span>
+    <span style="color:#fff">...</span>
+  <span style="color: #f92672">&lt;/div&gt;</span>
+<span style="color: #f92672">&lt;/div&gt;</span>
+</pre>
+    </div>
+  </div>
+</div>
+
 </div>
