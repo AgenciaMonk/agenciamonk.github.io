@@ -2,7 +2,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*min-height: 100%;*/
 }
 .column {
   -webkit-box-orient: vertical;
@@ -200,8 +199,8 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  -ms-flex-preferred-size: 500px;
-      flex-basis: 500px;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
 }
 .flex {
   -webkit-box-flex: 1;

@@ -238,10 +238,11 @@ select:hover {
   animation: entra .3s linear;
 }
 .slec {
-  color: rgba(0, 0, 0, 1)!important
+  color: rgba(0, 0, 0, 1)!important;
+  font-weight: bold;
 }
 .slecp {
-  color: rgba(0, 0, 0, .7)!important;
+  color: rgba(0, 0, 0, .4)!important;
   font-weight: bold;
 }
 .play-playground {
