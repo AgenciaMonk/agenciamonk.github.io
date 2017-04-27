@@ -57,24 +57,13 @@ gulp.task('css', function(){
 // SCREENSHOT
 gulp.task('pg', function(){
   const pageres = new Pageres({delay: 2})
-	.src('agenciamonk.github.io', ['480x320', '1024x768', 'iphone 5s'])
+	.src('agenciamonk.github.io/doc/basic/buttons', ['480x320', '1024x768', 'iphone 5s'])
   .dest('prints')
 	.run()
 	.then(() => console.log('done'));
 });
 // SCREENSHOT
 
-// ZIP-ARCHIVES
-gulp.task('zizp', function(){
-  gulp.src('./css/components/*.css')
-     .pipe(concat('all.css'))
-     .pipe(gulp.dest('download/test/'))
-
-	// gulp.src('./img/*')
-	// 	.pipe(zip('archive.zip'))
-	// 	.pipe(gulp.dest('download'))
-});
-//ZIP-ARCHIVES
 
 
 
