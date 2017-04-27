@@ -83,7 +83,7 @@ gulp.task('zizp', function(){
 gulp.task('copile-css', function() {
   return gulp.src(components)
     .pipe(concat('monk-framework.css'))
-    .pipe(gulp.dest('./_download'));
+    .pipe(gulp.dest('./download'));
 });
 
 gulp.task('copile-css-min', function() {
@@ -93,13 +93,13 @@ gulp.task('copile-css-min', function() {
         console.log(details.name + ': ' + details.stats.originalSize);
         console.log(details.name + ': ' + details.stats.minifiedSize);
     }))
-    .pipe(gulp.dest('./_download'));
+    .pipe(gulp.dest('./download'));
 });
 
 gulp.task('zip-css', function(){
-	gulp.src('./_download/*.css')
+	gulp.src('./download/*.css')
 		.pipe(zip('monk-framework.zip'))
-		.pipe(gulp.dest('./_download'))
+		.pipe(gulp.dest('./download'))
 });
 
 
