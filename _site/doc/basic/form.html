@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monk opensource</title>
+  <meta name="description" content="Framework interno da agência Monk"/>
+  <meta name="author" content="gustavo quinalha"/>
+  <link rel="base" href="https://agenciamonk.github.io/"/>
+  <link rel="canonical" href="https://agenciamonk.github.io/"/>
+  <meta rel="sitemap" type="application/xml" content="https://agenciamonk.github.io/sitemap.xml"/>
+  <meta name="robots" content="index/follow"/>
+  <meta name="googlebot" content="index/follow"/>
+  <meta name="theme-color" content=""/>
+  <meta name="msapplication-navbutton-color" content=""/>
+  <meta name="apple-mobile-web-app-status-bar-style" content=""/>
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Monk opensource"/>
+  <meta itemprop="description" content="Framework interno da agência Monk"/>
+  <meta itemprop="image" content="https://agenciamonk.github.io/img/intro.jpg"/>
+  <!-- markup for facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Monk opensource"/>
+  <meta property="og:url" content="https://agenciamonk.github.io/"/>
+  <meta property="og:site_name" content="Monk opensource"/>
+  <meta property="og:image" content="https://agenciamonk.github.io/img/intro.jpg"/>
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="600">
+  <meta property="og:description" content="Framework interno da agência Monk"/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="fb:app_id" content="1154262757941899"/>
+  <meta property="fb:admins" content="100002787447461"/>
+  <!-- markup for twitter -->
+  <meta name="twitter:card" content="Summary"/>
+  <meta name="twitter:title" content="Monk opensource"/>
+  <meta name="twitter:description" content="Framework interno da agência Monk"/>
+  <meta name="twitter:creator" content="gustavo quinalha"/>
+  <meta name="twitter:site" content="https://agenciamonk.github.io/"/>
+  <meta name="twitter:image" content="https://agenciamonk.github.io/img/intro.jpg"/>
+  <!-- JSON-LD - structured data markup Google Search -->
+  <script type="application/ld+json">
+  {"@context":"http://www.schema.org","@type":"website","name":"Monk Framework","alternateName":"Monk opensource","url":"https://agenciamonk.github.io/"}
+  </script>
+
+  <!-- <link rel="stylesheet" href="css/components/final/final.css"> -->
+  <link rel="stylesheet" href="/css/components/css.css">
+  <link rel="stylesheet" href="/css/components/flexalign.css">
+  <link rel="stylesheet" href="/css/components/fonts.css">
+  <link rel="stylesheet" href="/css/components/colors.css">
+  <link rel="stylesheet" href="/css/components/buttons.css">
+  <link rel="stylesheet" href="/css/components/form.css">
+
+
+  <!-- <link rel="stylesheet" href="/css/master.min.css"> -->
+
+  <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+
+
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+<body>
+  <!-- <div class="menu-full">
+  <div class="menu container space-between-center tamanho margin text-center">
+    <div class="item-menu flex1 basis1">
+      <div class="logo-site">
+        <a href="/#"><img src="/img/logo.svg " width="200" alt=""></a>
+      </div>
+    </div>
+    <div class="item-menu flex6 basis6 text-right some-phone">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <a href="/" class="link-menu">Get Started</a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="item-menu flex1 basis2 text-right some-desk">
+      <div class="img-menu">
+        <img src="/img/menu.svg " width="20" alt="">
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+<div class="menu-full">
+  <div class="menu container space-between-center">
+    <div class="item-menu flex1 basis1">
+      <div class="logo-site text-left">
+        <a href=" /# "><img src=" /img/logo.svg " width="200" alt=""></a>
+      </div>
+    </div>
+
+    <div class="item-menu flex6 basis6 text-right some-phone">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <a href="/" class="link-menu">Get Started</a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+
+    <div class="item-menu flex basis2 text-right some-desk">
+      <div class="img-menu">
+        <div id="hamburg">
+          <img src=" /img/menu.svg " width="20" alt="">
+        </div>
+        <div class="espaco-menu text-left" id="fechahamburg">
+          <div class="tamanho margin">
+            <div class="container column">
+
+              <div class="link-doc">
+                <div class="link-doc-title">
+                  <h1>Documentação</h1>
+                </div>
+                <div class="link-doc-subtitle">
+                  <h2>Get-started</h2>
+                </div>
+                <ul>
+                  
+                  <li><a href=" / ">Get started</a></li>
+                  
+                  
+                  <li><a href=" /start/sobre ">About</a></li>
+                   
+                  <li><a href=" /start/download ">Download</a></li>
+                  
+                  <!-- 
+                  <li><a href=" /start/exemplos ">Exemplos</a></li>
+                   -->
+                </ul>
+              </div>
+
+              <div class="link-doc">
+                <div class="link-doc-subtitle">
+                  <h2>Basic</h2>
+                </div>
+                <ul>
+                  
+                  <li><a href=" /doc/basic/colors ">Colors</a></li>
+                  
+                  
+                  <li><a href=" /doc/basic/fonts ">Fonts</a></li>
+                  
+                  
+                  <li><a href=" /doc/basic/buttons ">Buttons</a></li>
+                  
+
+                  
+                  <li class="link-h"><a href=" /doc/basic/form " class="slec">Forms</a></li>
+                  
+
+                  
+                  <li><a href=" /doc/basic/buttons-play " class="slecp">Playground</a></li>
+                  
+                </ul>
+              </div>
+
+              <div class="link-doc">
+                <div class="link-doc-subtitle">
+                  <h2>Grid</h2>
+                </div>
+                <ul>
+
+                  
+                  <li><a href=" /doc/aprenda ">Aprenda</a></li>
+                   
+                  <li><a href=" /doc/wrap ">Wrap/nowrap</a></li>
+                   
+                  <li><a href=" /doc/column-row ">Column/row</a></li>
+                   
+                  <li><a href=" /doc/flex ">Flex</a></li>
+                   
+                  <li><a href=" /doc/align ">Align</a></li>
+                   
+                  <li><a href=" /doc/basis ">Basis</a></li>
+                   
+                  <li><a href=" /doc/playground ">Playground</a></li>
+                  
+
+
+
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container space-between container-site wrap-mobile">
+    <div class="site-menu flex1 some-phone">
+      <div class="container column">
+
+  <div class="link-doc">
+    <div class="link-doc-title">
+      <h1>Documentação</h1>
+    </div>
+    <div class="link-doc-subtitle">
+      <h2>Get-started</h2>
+    </div>
+    <ul>
+      
+      <li><a href=" / ">Get started</a></li>
+      
+      
+      <li><a href=" /start/sobre ">About</a></li>
+       
+      <li><a href=" /start/download ">Download</a></li>
+      
+      <!-- 
+      <li><a href=" /start/exemplos ">Exemplos</a></li>
+       -->
+    </ul>
+  </div>
+
+
+
+  <div class="link-doc">
+    <div class="link-doc-subtitle">
+      <h2>Basic</h2>
+    </div>
+    <ul>
+      
+      <li><a href=" /doc/basic/colors ">Colors</a></li>
+      
+      
+      <li><a href=" /doc/basic/fonts ">Fonts</a></li>
+      
+      
+      <li><a href=" /doc/basic/buttons ">Buttons</a></li>
+      
+      
+      <li class="link-h"><a href=" /doc/basic/form " class="slecp">Forms</a></li>
+      
+      
+      <li><a href=" /doc/basic/buttons-play " class="slecp">Playground</a></li>
+      
+    </ul>
+  </div>
+
+
+
+
+  <div class="link-doc">
+    <div class="link-doc-subtitle">
+      <h2>Grid</h2>
+    </div>
+    <ul>
+
+      
+      <li><a href=" /doc/example ">Example</a></li>
+       
+      <li><a href=" /doc/wrap ">Wrap/nowrap</a></li>
+       
+      <li><a href=" /doc/column-row ">Column/row</a></li>
+       
+      <li><a href=" /doc/flex ">Flex</a></li>
+       
+      <li><a href=" /doc/align ">Align</a></li>
+       
+      <li><a href=" /doc/basis ">Basis</a></li>
+       
+      <li><a href=" /doc/playground " class="slecp">Playground</a></li>
+      
+
+
+
+    </ul>
+  </div>
+</div>
+
+    </div>
+    <div class="site-conteudo flex basis12">
+      <div class="link-doc-title">
+  <h1>Form</h1>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Simple Form</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="Name" autofocus="autofocus" required>
+      </div>
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="Username" required>
+      </div>
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="E-mail" required>
+      </div>
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="Phone" disabled="disabled">
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="fontdoc">
+  <h2>Simple Form with label</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <div class="input">
+          <label for="">Name:</label>
+          <input type="text" name="" value="" placeholder="Ex: Gustavo Quinalha" >
+        </div>
+      </div>
+      <div class="basis4 flex mg10">
+        <div class="input">
+          <label for="">Username:</label>
+          <input type="text" name="" value="" placeholder="Ex: Quinalha">
+        </div>
+      </div>
+      <div class="basis4 flex mg10">
+        <div class="input">
+          <label for="">E-mail:</label>
+          <input type="text" name="" value="" placeholder="Ex: gustavo@hotmail.com">
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="fontdoc">
+  <h2>Form + icon</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="" value="" placeholder="Name">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user-plus color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="" value="" placeholder="Username">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="mail" name="" value="" placeholder="E-mail">
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Form + icon + label</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <label for="">Name:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="mail" name="" value="" placeholder="Ex: Gustavo">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <label for="">Username:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user-plus color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="" value="" placeholder="Username">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <label for="">E-mail:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="mail" name="" value="" placeholder="Ex: gustavo@hotmail.com">
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Form + icon + label vertical</h2>
+  <form class="">
+    <div class="container wrap">
+
+      <div class="basis4 flex mg10">
+        <div class="container center-center">
+          <div class="basis1 text-right">
+            <label for="5name">Name: </label>
+          </div>
+          <div class="flex">
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fa fa-user color-grey" aria-hidden="true"></i>
+              </div>
+              <input type="mail" name="5name" id="5name" value="" placeholder="Ex: Gustavo">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="container center-center">
+          <div class="basis1 text-right">
+            <label for="5mail">E-mail: </label>
+          </div>
+          <div class="flex">
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+              </div>
+              <input type="mail" name="5mail" id="5mail" value="" placeholder="Ex: gustavo@hotmail.com">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="container center-center">
+          <div class="basis1 text-right">
+            <label for="yphone">Your phone:</label>
+          </div>
+          <div class="flex">
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fa fa-phone color-grey" aria-hidden="true"></i>
+              </div>
+              <input type="mail" name="yphone" id="yphone" value="" placeholder="(44) 99999-9999">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Required feedback</h2>
+  <p><small>Just add <strong>form-validate</strong> in the container, and <strong>required</strong> in the input.</small></p>
+  <form class="" action="/" method="post">
+    <div class="container wrap">
+
+
+      <div class="basis4 flex mg10 form-validate">
+        <label for="vname">Name:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="vname" name="vname" value="Gustavo" placeholder="Ex: Gustavo" required>
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10 form-validate">
+        <label for="vname">E-mail:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="email" name="vname" name="vname" value="" placeholder="Ex: gustavo@hotmail.com" required>
+        </div>
+      </div>
+
+    </div>
+  </form>
+
+  <h2>Simple Form with label</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="form-validate basis4 flex mg10">
+        <div class="input">
+          <label for="">Name:</label>
+          <input type="text" name="" value="" placeholder="Ex: Gustavo Quinalha" required>
+        </div>
+      </div>
+      <div class="form-validate basis4 flex mg10">
+        <div class="input">
+          <label for="">Username:</label>
+          <input type="text" name="" value="" placeholder="Ex: Quinalha" required>
+        </div>
+      </div>
+      <div class="form-validate basis4 flex mg10">
+        <div class="input">
+          <label for="">E-mail:</label>
+          <input type="text" name="" value="" placeholder="Ex: gustavo@hotmail.com" required>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+  <!-- <div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Sent</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-primary&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Sent</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-success&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-danger&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-danger&quot;</span><span style="color: #a6e22e"> disabled</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+  </div>
+</div> -->
+
+
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  var hamburgerAbre = document.getElementById('hamburg');
+  var hamburgerFecha = document.getElementById('fecha-menu-hamb');
+
+  // ABRIR MENU
+  hamburgerAbre.onclick = function() {
+    var abre = document.getElementById('fechahamburg');
+    if (abre.style.display !== 'block') {
+      abre.style.display = 'block';
+    } else {
+      abre.style.display = 'none';
+    }
+  };
+  // /ABRIR MENU
+
+  // FECHAR MENU
+  hamburgerFecha.onclick = function() {
+    var fecha = document.getElementById('fechahamburg');
+    if (fecha.style.display !== 'block') {
+      fecha.style.display = 'block';
+    } else {
+      fecha.style.display = 'none';
+    }
+  };
+  // /FECHAR MENU
+</script>
+
+</body>
+</html>
