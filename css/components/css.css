@@ -167,6 +167,7 @@ select:hover {
 .codigo pre {
   padding: 10px;
   font-weight: normal;
+  /*max-height: 140px;*/
 }
 .btn-download {
   width: 300px;

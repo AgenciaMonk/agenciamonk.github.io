@@ -9,6 +9,7 @@ input {
   -webkit-transition: .6s;
   transition: .6s;
 }
+
 .form-validate input:required:valid,
 .form-validate input:focus:valid {
    background-image: url(font/img/checked.svg);
@@ -78,4 +79,89 @@ form label {
   opacity: .5;
   cursor: not-allowed;
   background: none
+}
+
+
+form ul {
+  list-style: none;
+  width: 100%;
+}
+form ul li {
+  display: flex;
+  align-items: center;
+}
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+.simple-check input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+.simple-check input[type="radio"]:checked + label {
+  font-weight: bold
+}
+.simple-check {
+}
+
+
+
+
+
+
+
+
+.img-check input[type="radio"] {
+  display: none
+}
+.img-check label {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.img-check input[type="radio"] + label {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: .3s
+}
+.img-check input[type="radio"]:checked + label {
+  background: #222222;
+}
+
+
+
+
+
+
+
+
+
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  cursor: pointer;
+}
+input[type="checkbox"] + label:before {
+  border: 1px solid #222222;
+  margin: 2px;
+  content: "\00a0";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 4px;
+}
+input[type="checkbox"]:checked + label:before {
+  content: "\2716";
+  color: #3FC380
+}
+input[type="checkbox"]:checked + label:after {
+  font-weight: bold;
 }
