@@ -53,15 +53,16 @@
       <li><a href="{{ " /doc/basic/buttons " | prepend: site.baseurl }}">Buttons</a></li>
       {% endif %}
       {% if page.url == "/doc/basic/form" %}
-      <li class="link-h"><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}" class="slecp">Forms</a></li>
+      <li class="link-h"><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}" class="slec">Forms</a></li>
       {% else %}
-      <li><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}" class="slecp">Forms</a></li>
+      <li><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}">Forms</a></li>
       {% endif %}
-      {% if page.url == "/doc/basic/buttons-play" %}
+
+      <!-- {% if page.url == "/doc/basic/buttons-play" %}
       <li class="link-h"><a href="{{ " /doc/basic/buttons-play " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
       {% else %}
       <li><a href="{{ " /doc/basic/buttons-play " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
-      {% endif %}
+      {% endif %} -->
     </ul>
   </div>
 
@@ -98,11 +99,12 @@
       <li class="link-h"><a href="{{ " /doc/basis " | prepend: site.baseurl }}" class="slec">Basis</a></li>
       {% else %}
       <li><a href="{{ " /doc/basis " | prepend: site.baseurl }}">Basis</a></li>
-      {% endif %} {% if page.url == "/doc/playground" %}
+      {% endif %}
+      <!-- {% if page.url == "/doc/playground" %}
       <li class="link-h"><a href="{{ " /doc/playground " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
       {% else %}
       <li><a href="{{ " /doc/playground " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
-      {% endif %}
+      {% endif %} -->
 
 
 

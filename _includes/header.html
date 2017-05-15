@@ -1,27 +1,3 @@
-<!-- <div class="menu-full">
-  <div class="menu container space-between-center tamanho margin text-center">
-    <div class="item-menu flex1 basis1">
-      <div class="logo-site">
-        <a href="{{ "/#" | prepend: site.baseurl }}"><img src="{{ "/img/logo.svg "| prepend: site.baseurl }}" width="200" alt=""></a>
-      </div>
-    </div>
-    <div class="item-menu flex6 basis6 text-right some-phone">
-      {% for page in site.pages %}
-        {% if  page.title %}
-          <a href="{{ page.url | prepend: site.baseurl }}" class="link-menu">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="item-menu flex1 basis2 text-right some-desk">
-      <div class="img-menu">
-        <img src="{{ "/img/menu.svg "| prepend: site.baseurl }}" width="20" alt="">
-      </div>
-    </div>
-  </div>
-</div> -->
-
-
-
 <div class="menu-full">
   <div class="menu container space-between-center">
     <div class="item-menu flex1 basis1">
@@ -29,15 +5,10 @@
         <a href="{{ " /# " | prepend: site.baseurl }}"><img src="{{ " /img/logo.svg "| prepend: site.baseurl }}" width="200" alt=""></a>
       </div>
     </div>
-
     <div class="item-menu flex6 basis6 text-right some-phone">
-      {% for page in site.pages %}
-        {% if  page.title %}
-          <a href="{{ page.url | prepend: site.baseurl }}" class="link-menu">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
+      {% for page in site.pages %} {% if page.title %}
+      <a href="{{ page.url | prepend: site.baseurl }}" class="link-menu">{{ page.title }}</a> {% endif %} {% endfor %}
     </div>
-
     <div class="item-menu flex basis2 text-right some-desk">
       <div class="img-menu">
         <div id="hamburg">
@@ -59,8 +30,7 @@
                   <li class="link-h"><a href="{{ " / " | prepend: site.baseurl }}" class="slec">Get started</a></li>
                   {% else %}
                   <li><a href="{{ " / " | prepend: site.baseurl }}">Get started</a></li>
-                  {% endif %}
-                  {% if page.url == "/start/sobre" %}
+                  {% endif %} {% if page.url == "/start/sobre" %}
                   <li class="link-h"><a href="{{ " /start/sobre " | prepend: site.baseurl }}" class="slec">About</a></li>
                   {% else %}
                   <li><a href="{{ " /start/sobre " | prepend: site.baseurl }}">About</a></li>
@@ -69,14 +39,8 @@
                   {% else %}
                   <li><a href="{{ " /start/download " | prepend: site.baseurl }}">Download</a></li>
                   {% endif %}
-                  <!-- {% if page.url == "/start/exemplos" %}
-                  <li class="link-h"><a href="{{ " /start/exemplos " | prepend: site.baseurl }}" class="slec">Exemplos</a></li>
-                  {% else %}
-                  <li><a href="{{ " /start/exemplos " | prepend: site.baseurl }}">Exemplos</a></li>
-                  {% endif %} -->
                 </ul>
               </div>
-
               <div class="link-doc">
                 <div class="link-doc-subtitle">
                   <h2>Basic</h2>
@@ -86,38 +50,31 @@
                   <li class="link-h"><a href="{{ " /doc/basic/colors " | prepend: site.baseurl }}" class="slec">Colors</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basic/colors " | prepend: site.baseurl }}">Colors</a></li>
-                  {% endif %}
-                  {% if page.url == "/doc/basic/fonts" %}
+                  {% endif %} {% if page.url == "/doc/basic/fonts" %}
                   <li class="link-h"><a href="{{ " /doc/basic/fonts " | prepend: site.baseurl }}" class="slec">Fonts</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basic/fonts " | prepend: site.baseurl }}">Fonts</a></li>
-                  {% endif %}
-                  {% if page.url == "/doc/basic/buttons" %}
+                  {% endif %} {% if page.url == "/doc/basic/buttons" %}
                   <li class="link-h"><a href="{{ " /doc/basic/buttons " | prepend: site.baseurl }}" class="slec">Buttons</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basic/buttons " | prepend: site.baseurl }}">Buttons</a></li>
-                  {% endif %}
-
-                  {% if page.url == "/doc/basic/form" %}
+                  {% endif %} {% if page.url == "/doc/basic/form" %}
                   <li class="link-h"><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}" class="slec">Forms</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}">Forms</a></li>
                   {% endif %}
-
-                  {% if page.url == "/doc/basic/buttons-play" %}
+                  <!-- {% if page.url == "/doc/basic/buttons-play" %}
                   <li class="link-h"><a href="{{ " /doc/basic/buttons-play " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basic/buttons-play " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
-                  {% endif %}
+                  {% endif %} -->
                 </ul>
               </div>
-
               <div class="link-doc">
                 <div class="link-doc-subtitle">
                   <h2>Grid</h2>
                 </div>
                 <ul>
-
                   {% if page.url == "/doc/aprenda" %}
                   <li class="link-h"><a href="{{ " /doc/aprenda " | prepend: site.baseurl }}" class="slec">Aprenda</a></li>
                   {% else %}
@@ -142,18 +99,15 @@
                   <li class="link-h"><a href="{{ " /doc/basis " | prepend: site.baseurl }}" class="slec">Basis</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/basis " | prepend: site.baseurl }}">Basis</a></li>
-                  {% endif %} {% if page.url == "/doc/playground" %}
+                  {% endif %}
+                  <!-- {% if page.url == "/doc/playground" %}
                   <li class="link-h"><a href="{{ " /doc/playground " | prepend: site.baseurl }}" class="slec">Playground</a></li>
                   {% else %}
                   <li><a href="{{ " /doc/playground " | prepend: site.baseurl }}">Playground</a></li>
-                  {% endif %}
-
-
-
+                  {% endif %} -->
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
       </div>

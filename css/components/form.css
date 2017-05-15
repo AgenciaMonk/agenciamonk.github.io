@@ -10,24 +10,18 @@ input {
   transition: .6s;
 }
 .form-validate input:required:valid,
-.form-validate input:focus:valid{
+.form-validate input:focus:valid {
    background-image: url(font/img/checked.svg);
    background-position: center right;
    background-repeat: no-repeat;
    background-size: 15px;
  }
-.form-validate input:required:invalid{
+.form-validate input:required:invalid {
    background-image: url(font/img/unchecked.svg);
    background-position: center right;
    background-repeat: no-repeat;
    background-size: 15px;
  }
-
-
-
-
-
-
 input:focus {
   border: 1px solid rgba(0, 0, 0, .5);
 }
