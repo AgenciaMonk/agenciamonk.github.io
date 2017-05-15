@@ -410,7 +410,12 @@ select:hover {
   list-style: none;
   font-size: 14px
 }
-
+.mg10 {
+  margin: 10px
+}
+.pd10 {
+  padding: 10px
+}
 
 
 

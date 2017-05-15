@@ -1,0 +1,260 @@
+---
+layout: default
+permalink: /doc/basic/form
+---
+
+<div class="link-doc-title">
+  <h1>Form</h1>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Simple Form</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="Name" autofocus="autofocus" required>
+      </div>
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="Username" required>
+      </div>
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="E-mail" required>
+      </div>
+      <div class="basis4 flex mg10">
+        <input type="text" name="" value="" placeholder="Phone" disabled="disabled">
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="fontdoc">
+  <h2>Simple Form with label</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <div class="input">
+          <label for="">Name:</label>
+          <input type="text" name="" value="" placeholder="Ex: Gustavo Quinalha" >
+        </div>
+      </div>
+      <div class="basis4 flex mg10">
+        <div class="input">
+          <label for="">Username:</label>
+          <input type="text" name="" value="" placeholder="Ex: Quinalha">
+        </div>
+      </div>
+      <div class="basis4 flex mg10">
+        <div class="input">
+          <label for="">E-mail:</label>
+          <input type="text" name="" value="" placeholder="Ex: gustavo@hotmail.com">
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="fontdoc">
+  <h2>Form + icon</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="" value="" placeholder="Name">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user-plus color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="" value="" placeholder="Username">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="mail" name="" value="" placeholder="E-mail">
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Form + icon + label</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="basis4 flex mg10">
+        <label for="">Name:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="mail" name="" value="" placeholder="Ex: Gustavo">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <label for="">Username:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user-plus color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="" value="" placeholder="Username">
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <label for="">E-mail:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="mail" name="" value="" placeholder="Ex: gustavo@hotmail.com">
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Form + icon + label vertical</h2>
+  <form class="">
+    <div class="container wrap">
+
+      <div class="basis4 flex mg10">
+        <div class="container center-center">
+          <div class="basis1 text-right">
+            <label for="5name">Name: </label>
+          </div>
+          <div class="flex">
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fa fa-user color-grey" aria-hidden="true"></i>
+              </div>
+              <input type="mail" name="5name" id="5name" value="" placeholder="Ex: Gustavo">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="container center-center">
+          <div class="basis1 text-right">
+            <label for="5mail">E-mail: </label>
+          </div>
+          <div class="flex">
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+              </div>
+              <input type="mail" name="5mail" id="5mail" value="" placeholder="Ex: gustavo@hotmail.com">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10">
+        <div class="container center-center">
+          <div class="basis1 text-right">
+            <label for="yphone">Your phone:</label>
+          </div>
+          <div class="flex">
+            <div class="input-group">
+              <div class="input-group-icon">
+                <i class="fa fa-phone color-grey" aria-hidden="true"></i>
+              </div>
+              <input type="mail" name="yphone" id="yphone" value="" placeholder="(44) 99999-9999">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </form>
+</div>
+
+
+<div class="fontdoc">
+  <h2>Required feedback</h2>
+  <p><small>Just add <strong>form-validate</strong> in the container, and <strong>required</strong> in the input.</small></p>
+  <form class="" action="/" method="post">
+    <div class="container wrap">
+
+
+      <div class="basis4 flex mg10 form-validate">
+        <label for="vname">Name:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-user color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="text" name="vname" name="vname" value="Gustavo" placeholder="Ex: Gustavo" required>
+        </div>
+      </div>
+
+      <div class="basis4 flex mg10 form-validate">
+        <label for="vname">E-mail:</label>
+        <div class="input-group">
+          <div class="input-group-icon">
+            <i class="fa fa-envelope color-grey" aria-hidden="true"></i>
+          </div>
+          <input type="email" name="vname" name="vname" value="" placeholder="Ex: gustavo@hotmail.com" required>
+        </div>
+      </div>
+
+    </div>
+  </form>
+
+  <h2>Simple Form with label</h2>
+  <form class="">
+    <div class="container wrap">
+      <div class="form-validate basis4 flex mg10">
+        <div class="input">
+          <label for="">Name:</label>
+          <input type="text" name="" value="" placeholder="Ex: Gustavo Quinalha" required>
+        </div>
+      </div>
+      <div class="form-validate basis4 flex mg10">
+        <div class="input">
+          <label for="">Username:</label>
+          <input type="text" name="" value="" placeholder="Ex: Quinalha" required>
+        </div>
+      </div>
+      <div class="form-validate basis4 flex mg10">
+        <div class="input">
+          <label for="">E-mail:</label>
+          <input type="text" name="" value="" placeholder="Ex: gustavo@hotmail.com" required>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+  <!-- <div class="codigo-p">
+<div class="codigo" style="background: #222; overflow:auto;width:auto;border:solid #ccc;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%">
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Sent</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-primary&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Sent</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-success&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Complete</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-danger&quot;</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span>
+
+<span style="color: #f92672">&lt;button</span> <span style="color: #a6e22e">class=</span><span style="color: #e6db74">&quot;btn btn-danger&quot;</span><span style="color: #a6e22e"> disabled</span><span style="color: #f92672">&gt;</span><span style="color:#fff">Cancel</span><span style="color: #f92672">&lt;/button&gt;</span></pre>
+  </div>
+</div> -->

@@ -52,6 +52,11 @@
       {% else %}
       <li><a href="{{ " /doc/basic/buttons " | prepend: site.baseurl }}">Buttons</a></li>
       {% endif %}
+      {% if page.url == "/doc/basic/form" %}
+      <li class="link-h"><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}" class="slecp">Forms</a></li>
+      {% else %}
+      <li><a href="{{ " /doc/basic/form " | prepend: site.baseurl }}" class="slecp">Forms</a></li>
+      {% endif %}
       {% if page.url == "/doc/basic/buttons-play" %}
       <li class="link-h"><a href="{{ " /doc/basic/buttons-play " | prepend: site.baseurl }}" class="slecp">Playground</a></li>
       {% else %}
